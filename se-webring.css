@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    background-color: black
+    background-color: black;
+    overflow-x: hidden;
 }
 
 a, p, h1, #searchbarInput {
