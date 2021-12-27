@@ -1,30 +1,106 @@
+// Animation settings
+const ANIMATION_END_FRAME = 1;
+const ANIMATION_STEP = 0.01;
+const SIGMOID_COMPRESSION = 10;
+const sigmoid = x => 1/(1 + Math.exp(1) ** -(SIGMOID_COMPRESSION * (x - 0.5)));
+const CANVAS_ELEMENT_ID = "webringTorus";
+
+// Torus settings
+const TORUS_RADIUS = 100;
+const TORUS_TUBE = 50;
+const TORUS_RADIAL_SEGMENTS = 16;
+const TORUS_TUBULAR_SEGMENTS = 100;
+const TORUS_TEXTURE = "./assets/torus-texture.svg";
+
+// Rotation animation
+const X_ROTATION_STEP = 0.01;
+const Y_ROTATION_SPEED = 0.005;
+
+// Scroll-triggered animation
+const animationTriggerHeight = () => window.innerHeight / 10;
+// Start state
+const torusStartY = () => window.innerHeight / 5;
+const TORUS_START_Z = -500;
+const TORUS_START_OPACITY = 1;
+// End state
+let torusEndY = 0
+const TORUS_END_OPACITY = 0.2;
+const TORUS_END_SCALE = 2;
+
+// Set up scene
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 75, window.innerWidth * 2 / window.innerHeight, 0.1, 1000 );
-
+const camera = new THREE.OrthographicCamera(
+    window.innerWidth / - 2,
+    window.innerWidth / 2, 
+    window.innerHeight / 2, 
+    window.innerHeight / - 2,
+    1, 1000
+);
 const renderer = new THREE.WebGLRenderer();
-renderer.setSize( window.innerWidth, window.innerHeight / 2 );
-document.getElementById("webringTorus").appendChild( renderer.domElement );
+renderer.setSize(window.innerWidth, window.innerHeight);
+document.getElementById(CANVAS_ELEMENT_ID).appendChild( renderer.domElement );
 
-const geometry = new THREE.TorusGeometry( 1.2, 0.5, 16, 100 );
+// Create torus
+const geometry = new THREE.TorusGeometry(TORUS_RADIUS, TORUS_TUBE, TORUS_RADIAL_SEGMENTS, TORUS_TUBULAR_SEGMENTS);
 const textureLoader = new THREE.TextureLoader();
-const textureBase = textureLoader.load("./assets/torus-texture.svg");
-
+const textureBase = textureLoader.load(TORUS_TEXTURE);
 textureBase.anisotropy = renderer.capabilities.getMaxAnisotropy();
-
 const torus = new THREE.Mesh( geometry, new THREE.MeshBasicMaterial(
     {
-        map: textureBase
+        map: textureBase,
+        transparent: true
     }
-) );
+));
+torus.position.z = TORUS_START_Z;
 scene.add( torus );
 
-camera.position.z = 3.5;
+// Window resize logic
+let isResized = false;
+window.addEventListener('resize', function() {
+    isResized = true;
+});
 
-const animate = function () {
-    requestAnimationFrame( animate );
+const resizeCanvasToDisplaySize = () => {
+    isResized = false;
+    renderer.setSize(window.innerWidth, window.innerHeight);
 
-    torus.rotation.x += 0.01;
-    torus.rotation.y  = window.scrollY * 0.01;
+    // Update the camera
+    camera.aspect = window.innerWidth/window.innerHeight;
+    camera.left = window.innerWidth / - 2;
+    camera.right = window.innerWidth / 2;
+    camera.top = window.innerHeight / 2;
+    camera.bottom = window.innerHeight / -2;
+    camera.updateProjectionMatrix();
+    torus.position.y = torusStartY();
+};
+
+// Animation logic
+let frame = 0;
+const animate = () => {
+    requestAnimationFrame(animate);
+    if (isResized) {
+        resizeCanvasToDisplaySize();
+    }
+
+    // Rotation animation
+    torus.rotation.x += X_ROTATION_STEP;
+    torus.rotation.y  = window.scrollY * Y_ROTATION_SPEED;
+
+    if (window.scrollY >= animationTriggerHeight()) {
+        if (frame <= ANIMATION_END_FRAME) {
+            frame += ANIMATION_STEP;
+        }
+    } else if (frame > 0) {
+        frame -= ANIMATION_STEP;
+    }
+
+    out = sigmoid(frame);
+    torus.position.x = out * window.innerWidth/2; // Move torus to right edge
+    torus.position.y = torusStartY() + (torusEndY - torusStartY()) * out;
+    torus.material.opacity = TORUS_START_OPACITY + (TORUS_END_OPACITY - TORUS_START_OPACITY) * out;
+    torus.scale.x = 1 + (TORUS_END_SCALE) * out;
+    torus.scale.y = 1 + (TORUS_END_SCALE) * out;
+    torus.scale.z = 1 + (TORUS_END_SCALE) * out;
 
     renderer.render( scene, camera );
 };
