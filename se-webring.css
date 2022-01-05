@@ -4,7 +4,9 @@ html {
 }
 
 body {
-    background-color: black
+    background-color: black;
+    overflow-x: hidden;
+    height: 1000em; /* Keep for testing scroll-triggered animation */
 }
 
 a, p, h1, #searchbarInput {
@@ -34,6 +36,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 50vh;
 }
 
 #searchBarIcon {
@@ -55,6 +58,7 @@ a:hover {
 }
 
 #sitelistSection {
+    position: relative;
     vertical-align: middle;
     display: flex;
     align-items: center;
@@ -73,4 +77,12 @@ td {
     vertical-align: middle;
     padding: 5px;
     word-wrap: break-word;
+}
+
+#webringTorus {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
