@@ -346,10 +346,10 @@ function fillSiteTable(type) {
         siteArray = allSites;
     } else if (type == "fromSearch" && searchBar.value) {
         let results = [];
-        if (Number.isInteger(searchBar.value)) {
-            fuse.search("=" + searchBar.value);
+        if (Number.parseInt(searchBar.value)) {
+            results = fuse.search("=" + searchBar.value);
         } else {
-            fuse.search(searchBar.value);
+            results = fuse.search(searchBar.value);
         }
         for (let i = 0; i < results.length; i++) {
             siteArray.push(results[i]["item"]);
