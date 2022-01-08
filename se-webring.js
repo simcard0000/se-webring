@@ -1,78 +1,373 @@
 // Each PR for adding a site needs to list 
 const allSites = [
-    [
+    {
+        "name": "Simran Thind",
+        "year": 2025,
+        "website": "https://www.simranthind.me/"
+    },
+    {
+        "name": "Janakitti Ratana-Rueangsri",
+        "year": 2024,
+        "website": "https://janakitti.com/"
+    },
+    {
+        "name": "BBC Test",
+        "year": 2025,
+        "website": "https://bbc.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },{
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },{
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
         {
-            "name": "Simran Thind",
-            "year": 2025,
-            "website": "https://www.simranthind.me/"
-        },
-        {
-            "name": "Janakitti Ratana-Rueangsri",
-            "year": 2024,
-            "website": "https://janakitti.com/"
-        },
-        {
-            "name": "BBC Test",
-            "year": 2025,
-            "website": "https://bbc.com/"
-        }
-    ],
-    [
-        {
-            "name": "NYT Test",
-            "year": 2026,
-            "website": "https://www.nytimes.com/"
-        }
-    ]
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    },
+    {
+        "name": "NYT Test",
+        "year": 2026,
+        "website": "https://www.nytimes.com/"
+    }
 ];
+
+const options = {
+    includeScore: false,
+    threshold: 0.3,
+    keys: ['name', 'year', 'website']
+}
+
+const fuse = new Fuse(allSites, options);
+
+window.addEventListener("scroll", function() {
+    if (document.getElementById("mainTable") != null) {
+        const nowTable = document.getElementById("mainTable");
+        const tableTop = nowTable.getBoundingClientRect().top;
+        const searchSection = document.getElementById("searchbarSection");
+        const searchBottom = searchSection.getBoundingClientRect().bottom;
+        const searchHeight = searchSection.clientHeight;
+        nowTable.style.clipPath = "none";
+        let difference = 0;
+        if (tableTop < 0) {
+            difference = tableTop * (-1) + searchHeight + 25;
+        } else if (tableTop <= searchBottom) {
+            difference = Math.abs(tableTop - searchBottom) + 25;
+        } else if (tableTop > searchBottom && Math.abs(tableTop - searchBottom) < 25){
+            difference = 25 - Math.abs(tableTop - searchBottom);
+        }
+        console.log("tableTop: ", tableTop, " searchBottom: ", searchBottom, " difference: ", difference, " actual difference: ", Math.abs(tableTop - searchBottom));
+        if (tableTop <= 50) {
+            nowTable.style.clipPath = `inset(${difference}px 0 0 0)`;
+        }
+    }
+})  
+
+function changeSearchIconColour(flag) {
+    const searchIcon = document.getElementById("searchbarIcon");
+    if (flag) {
+        // filter calculation generated from: https://codepen.io/sosuke/pen/Pjoqqp
+        searchIcon.style.filter = "brightness(0) saturate(100%) invert(93%) sepia(93%) saturate(30%) hue-rotate(125deg) brightness(107%) contrast(106%)";
+        searchIcon.style.transition = "1s";
+    } else {
+        searchIcon.style.filter = "none";
+        searchIcon.style.transition = "1s";
+    }
+}
 
 function fillSiteTable(type) {
     const searchBar = document.getElementById("searchbarInput");
-    const divSiteList = document.getElementById("sitelistSection");
-    let siteArray;
-    if (type == "fromLoading" || type == "fromSearch" && searchBar.value == false) {
+    const divSiteList = document.getElementById("searchbarSection");
+    let siteArray = [];
+    if (type == "fromLoading" || type == "fromSearch" && !searchBar.value) {
         siteArray = allSites;
-    } else if (type == "fromSearch" && searchBar.value != false) {
-        let siteResults = [];
-        let siteResultsRow = [];
-        let siteResultsSlice;
-        for (let i = 0; i < allSites.length; i++) {
-            for (let j = 0; j < allSites[i].length; j++) {
-                if(searchBar.value == allSites[i][j]["year"] || allSites[i][j]["name"].includes(searchBar.value)
-                    || allSites[i][j]["website"].includes(searchBar.value)) {
-                    siteResultsRow.push(allSites[i][j]);
-                }
-                if(siteResultsRow.length == 3) {
-                    siteResultsSlice = siteResultsRow.slice();
-                    siteResults.push(siteResultsSlice);
-                    siteResultsRow = [];
-                }
-            }
+    } else if (type == "fromSearch" && searchBar.value) {
+        let results = [];
+        if (Number.isInteger(searchBar.value)) {
+            fuse.search("=" + searchBar.value);
+        } else {
+            fuse.search(searchBar.value);
         }
-        siteResultsSlice = siteResultsRow.slice();
-        siteResults.push(siteResultsSlice);
-        siteResultsRow = [];
-        siteArray = siteResults;
+        for (let i = 0; i < results.length; i++) {
+            siteArray.push(results[i]["item"]);
+        }
     }
     if (document.getElementById("mainTable")) {
         const oldTable = document.getElementById("mainTable");
         oldTable.remove();
     }
     let htmlContent = [];
-    htmlContent.push("<table id=\"mainTable\">");
+    htmlContent.push("<div class=\"sticky\" id=\"mainTable\">");
     for (let i = 0; i < siteArray.length; i++) {
-        htmlContent.push("<tr>");
-        for (let j = 0; j < siteArray[i].length; j++) {
-            let fullSite = siteArray[i][j]["website"];
-            let cleanSite = fullSite.slice(8, fullSite.length - 1);
-            htmlContent.push("<td><a target=\"_blank\" href=\"" + 
-                fullSite + "\">" + cleanSite + "</a></td>");
-        }
-        htmlContent.push("</tr>");
+        let cleanSite = new URL(siteArray[i]["website"]);
+        htmlContent.push("<button><a target=\"_blank\" href=\"" + cleanSite.toString() + "\">" + cleanSite.hostname + "</a></button>");
     }
-    htmlContent.push("</table>");
+    htmlContent.push("</div>");
     divSiteList.insertAdjacentHTML(
-        "afterbegin",
-        htmlContent.join('')
+         "afterend",
+         htmlContent.join('')
     );
 }

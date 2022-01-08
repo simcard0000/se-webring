@@ -3,7 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
 	<meta name="author" content="Simran Thind and Janakitti Ratana-Rueangsri" />
 	<meta name="description" content="A webring for Software Engineering students at the University of Waterloo." />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,22 +15,24 @@
 		href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
 		rel="stylesheet">
 	<link rel="stylesheet" href="./se-webring.css" />
+	<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.5.3"></script>
 	<script type="text/javascript" src="./se-webring.js"></script>
 </head>
 
 <body onload="fillSiteTable(`fromLoading`)">
-	<div>
-		<div id="webringTorus"></div>
-		<img class="sticky" src="./assets/logo/logo_bg_b.png" alt="SE Webring" width="50" height="50" />
+	<div id="webringTorus"></div>
+	<button class="sticky" id="seWebringLogo"><a href="https://github.com/simcard0000/se-webring" target="_blank"><img src="./assets/logo/logo_bg_b.png" 
+		alt="SE Webring repository link" width="50" height="50"/></a></button>
+	<div id="centeredContent">
 		<div class="sticky" id="searchbarSection">
-			<img id="searchbarIcon" src="./assets/site-icons/search.svg" alt="Search site" width="15" height="15" />
+			<img id="searchbarIcon" src="./assets/site-icons/search.svg" alt="Search site icon" width="15" height="15"/>
 			<input id="searchbarInput" type="search" maxlength="100" minlength="0" spellcheck="false" autocorrect="off" incremental="true"
-				aria-label="Search the list of websites by text content or cohort year."
-				placeholder="search by site name/cohort year" name="searchbarInput" oninput="fillSiteTable(`fromSearch`)"></input>
+				aria-label="Search the list of websites by site name, person name, and cohort year."
+				alt="Search the list of websites by site name, person name, and cohort year."
+				placeholder="search by site/person name or year" name="searchbarInput" oninput="fillSiteTable(`fromSearch`)" 
+				onfocus="changeSearchIconColour(true)" onfocusout="changeSearchIconColour(false)"></input>
 		</div>
-		<div id="sitelistSection">
-			<!-- the table will be dynamically added to the html here -->
-		</div>
+		<!-- the site list will be dynamically added to the html here -->
 	</div>
 </body>
 <script type="text/javascript" src="./js/three.js"></script>
