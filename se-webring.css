@@ -36,6 +36,13 @@ button {
     outline: none;
 }
 
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .sticky {
     position: sticky;
     position: -webkit-sticky;
@@ -68,7 +75,7 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 60vh;
+    margin-top: 50vh;
     margin-bottom: 20px;
     top: 15px;
     border-bottom-color: rgb(160, 160, 160);
