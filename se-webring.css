@@ -23,7 +23,7 @@ h1,
   outline: none;
 }
 
-a {
+a, p {
   color: rgb(160, 160, 160);
   transition: 1s;
 }
@@ -123,7 +123,7 @@ input[type="search"]::-webkit-search-results-decoration {
   position: fixed;
   bottom: 15px;
   left: 50%;
-  margin-left: -100px;
+  margin-left: -110px;
   width: 200px;
   border-radius: 9999px;
   padding: 5px 10px;
