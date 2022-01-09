@@ -1,39 +1,44 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    min-height: 100%;
-    min-width: 100%
+  min-height: 100%;
+  min-width: 100%;
 }
 
 body {
-    background-color: #000000;
-    height: auto;
+  background-color: #000000;
+  height: auto;
 }
 
-a, p, h1, #searchbarInput {
-    font-family: 'DM Mono', monospace;
-    font-size: 14px;
-    text-decoration-line: none;
-    outline: none;
+a,
+p,
+h1,
+#searchbarInput {
+  font-family: "DM Mono", monospace;
+  font-size: 14px;
+  text-decoration-line: none;
+  outline: none;
 }
 
 a {
-    color: rgb(160, 160, 160);
-    transition: 1s;
+  color: rgb(160, 160, 160);
+  transition: 1s;
 }
 
-a:hover, button:focus, a:focus {
-    color: white;
-    transition: 1s;
+a:hover,
+button:focus,
+a:focus {
+  color: white;
+  transition: 1s;
 }
 
 button {
-    border: 0;
-    background-color: transparent;
-    outline: none;
+  border: 0;
+  background-color: transparent;
+  outline: none;
 }
 
 input[type="search"]::-webkit-search-decoration,
@@ -44,71 +49,85 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .sticky {
-    position: sticky;
-    position: -webkit-sticky;
+  position: sticky;
+  position: -webkit-sticky;
 }
 
 #webringTorus {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 #seWebringLogo {
-    top: 0px;
-    left: 0px;
+  top: 0px;
+  left: 0px;
 }
 
 #centeredContent {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 #searchbarSection {
-    display: flex;
-    text-align: center;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50vh;
-    margin-bottom: 20px;
-    top: 15px;
-    border-bottom-color: rgb(160, 160, 160);
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-    width: 65%;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50vh;
+  margin-bottom: 20px;
+  top: 15px;
+  border-bottom-color: rgb(160, 160, 160);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  width: 65%;
 }
 
 #searchBarIcon {
-    /* position: relative; */
-    vertical-align: middle;
+  /* position: relative; */
+  vertical-align: middle;
 }
 
 #searchbarInput {
-    /* position: relative; */
-    margin-left: 5px;
-    background-color: rgba(0, 0, 0, 0);
-    caret-color: white;
-    color: white;
-    border: none;
-    height: 20px;
-    outline: none;
-    width: 100%;
+  /* position: relative; */
+  margin-left: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  caret-color: white;
+  color: white;
+  border: none;
+  height: 20px;
+  outline: none;
+  width: 100%;
 }
 
 #mainTable {
-    /* position: relative; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: row wrap;
-    gap: 60px;
-    top: 0px;
-    margin-bottom: 20px;
-    width: 65%;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 60px;
+  top: 0px;
+  margin-bottom: 20px;
+  width: 65%;
+}
+
+#footer-container {
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+  border-radius: 9999px;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: #222222;
+  opacity: 0.8;
 }
