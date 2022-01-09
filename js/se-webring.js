@@ -319,7 +319,6 @@ window.addEventListener("scroll", function() {
         } else if (tableTop > searchBottom && Math.abs(tableTop - searchBottom) < 25){
             difference = 25 - Math.abs(tableTop - searchBottom);
         }
-        console.log("tableTop: ", tableTop, " searchBottom: ", searchBottom, " difference: ", difference, " actual difference: ", Math.abs(tableTop - searchBottom));
         if (tableTop <= 50) {
             nowTable.style.clipPath = `inset(${difference}px 0 0 0)`;
         }
