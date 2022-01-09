@@ -1,3 +1,5 @@
+_To add your site to the webring, you must be a **current student or an alum** of the [undergraduate Software Engineering program at the University of Waterloo](https://uwaterloo.ca/future-students/programs/software-engineering) (Waterloo, ON, Canada)._
+
 **Full Name:** \<insert full name here>
 
 **Cohort Year:** \<insert cohort year here (the year of expected graduation)>
