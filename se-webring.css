@@ -81,7 +81,7 @@ input[type="search"]::-webkit-search-results-decoration {
     border-bottom-color: rgb(160, 160, 160);
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
-    width: 55%;
+    width: 65%;
 }
 
 #searchBarIcon {
@@ -107,8 +107,8 @@ input[type="search"]::-webkit-search-results-decoration {
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
-    gap: 50px;
+    gap: 60px;
     top: 0px;
     margin-bottom: 20px;
-    width: 55%;
+    width: 65%;
 }
