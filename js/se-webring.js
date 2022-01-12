@@ -9,6 +9,11 @@ const allSites = [
         "name": "Janakitti Ratana-Rueangsri",
         "year": 2024,
         "website": "https://janakitti.com/"
+    },
+    {
+        "name": "Anthony Wang",
+        "year": 2024,
+        "website": "https://anthonywang.dev/"
     }
 ];
 
