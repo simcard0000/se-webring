@@ -11,6 +11,11 @@ const allSites = [
         "website": "https://janakitti.com/"
     },
     {
+        "name": "Anthony Wang",
+        "year": 2024,
+        "website": "https://anthonywang.dev/"
+    },
+    {
         "name": "Will Harris",
         "year": 2024,
         "website": "https://willharris.ca/"
