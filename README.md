@@ -12,9 +12,10 @@ A webring is a group of websites linked together in a circular manner, centered 
 ### How do I join?
 To add your site to the webring, you must be a current student or an alum of the [undergraduate Software Engineering program at the University of Waterloo](https://uwaterloo.ca/future-students/programs/software-engineering) (Waterloo, ON, Canada). You must also open a [pull request](https://github.com/simcard0000/se-webring/pulls) on this repo and include the information specified in the pull request template (full name, cohort year, full website URL, link to another profile to verify identity), and add your site entry to the end of the `allSites` array in the `se-webring.js` file (name, year, personal website). Add the `add site` label to your pull request, and assign as a reviewer either @simcard0000 or @janakitti. 
 
-Your pull request will only be approved 
+Your pull request will only be approved if you meet all requirements. After approval, you will have a deadline of 7 days (one week) henceforth to add a mention of the webring to your submitted site. This can either be a link back to the main site ([se-webring.xyz](https://se-webring.xyz/)), a link to the next person in the webring, or a link to both the previous and next person. For the latter two options, regarding the next person this might involve linking back to the first person in the ring and/or waiting for another pull request to be approved within those 7 days and linking to that new site instead. Feel free to use the images/icons in `se-webring/assets/logo` on your website.
 
 ### Credits 
+Logo designs were made with [Figma](https://www.figma.com), and the search bar icon is from an icon library provided by [Blueprint.js](https://blueprintjs.com/docs/#icons). The fuzzy search implementation is from [Fuse.js](https://fusejs.io/), and the animated torus is made using [Three.js](https://threejs.org/). The website font is DM Mono (Colophon Foundry) via [Google Fonts](https://fonts.google.com/specimen/DM+Mono). 
 
 ~
 
