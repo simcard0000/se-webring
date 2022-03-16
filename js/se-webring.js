@@ -94,7 +94,11 @@ function fillSiteTable(type) {
     htmlContent.push("<div class=\"sticky\" id=\"mainTable\">");
     for (let i = 0; i < siteArray.length; i++) {
         let cleanSite = new URL(siteArray[i]["website"]);
-        htmlContent.push("<button><a target=\"_blank\" href=\"" + cleanSite.toString() + "\">" + cleanSite.hostname + "</a></button>");
+        let host = cleanSite.hostname;
+        if (host.substring(0, 4) === "www."){
+            host = host.substring(4, host.length);
+        }
+        htmlContent.push("<button><a target=\"_blank\" href=\"" + cleanSite.toString() + "\">" + host + "</a></button>");
     }
     htmlContent.push("</div>");
     divSiteList.insertAdjacentHTML(
