@@ -24,7 +24,7 @@ const allSites = [
         "name": "William Qin",
         "year": 2024,
         "website": "https://williamqin.com/"
-    }
+    },
     {
         "name": "Kelvin Zhang",
         "year": 2024,
