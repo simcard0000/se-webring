@@ -29,6 +29,11 @@ const allSites = [
         "name": "Kelvin Zhang",
         "year": 2024,
         "website": "https://kelvinzhang.ca/"
+    },
+    {
+        "name": "Kelvin Zhang",
+        "year": 2024,
+        "website": "https://kelvinzhang.ca/"
     }
 ];
 
