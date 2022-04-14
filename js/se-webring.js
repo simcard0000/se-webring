@@ -31,9 +31,9 @@ const allSites = [
         "website": "https://kelvinzhang.ca/"
     },
     {
-        "name": "Kelvin Zhang",
+        "name": "Zuomiao Hu",
         "year": 2024,
-        "website": "https://kelvinzhang.ca/"
+        "website": "https://zonahu.tech/"
     }
 ];
 
