@@ -34,6 +34,11 @@ const allSites = [
         "name": "Zuomiao Hu",
         "year": 2024,
         "website": "https://zonahu.tech/"
+    },
+    {
+        "name": "Yash Arora",
+        "year": 2024,
+        "website": "https://yasharora.com/"
     }
 ];
 
