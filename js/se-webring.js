@@ -39,7 +39,13 @@ const allSites = [
         "name": "Yash Arora",
         "year": 2024,
         "website": "https://yasharora.com/"
+    },
+    {
+        "name": "Jessica Lui",
+        "year": 2024,
+        "website": "https://jessicalui.me/"
     }
+    
 ];
 
 const options = {
