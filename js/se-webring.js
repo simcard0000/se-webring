@@ -24,7 +24,28 @@ const allSites = [
         "name": "William Qin",
         "year": 2024,
         "website": "https://williamqin.com/"
+    },
+    {
+        "name": "Kelvin Zhang",
+        "year": 2024,
+        "website": "https://kelvinzhang.ca/"
+    },
+    {
+        "name": "Zuomiao Hu",
+        "year": 2024,
+        "website": "https://zonahu.tech/"
+    },
+    {
+        "name": "Yash Arora",
+        "year": 2024,
+        "website": "https://yasharora.com/"
+    },
+    {
+        "name": "Jessica Lui",
+        "year": 2024,
+        "website": "https://jessicalui.me/"
     }
+    
 ];
 
 const options = {
