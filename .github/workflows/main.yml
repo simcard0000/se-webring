@@ -1,18 +1,20 @@
-name: auto-assign-pr-reviewer
-on:
-  pull_request:
-    branches: [ main ]
+# Commenting out for now so that the workflow does not run.
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+#name: auto-assign-pr-reviewer
+#on:
+  #pull_request:
+    #branches: [ main ]
 
-    steps:
-      - name: on PR creation
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        run: |
-          gh pr edit ${{github.event.pull_request.html_url}} \
-            --add-reviewer simcard0000,janakitti
+#jobs:
+  #build:
+    #runs-on: ubuntu-latest
+
+    #steps:
+      #- name: on PR creation
+        #env:
+          #GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        #run: |
+          #gh pr edit ${{github.event.pull_request.html_url}} \
+            #--add-reviewer simcard0000,janakitti
 
 # Based off of this SO question: https://stackoverflow.com/questions/66557514/how-to-automatically-request-a-review-from-someone-using-github-actions
