@@ -49,6 +49,11 @@ const allSites = [
         "name": "Damian Reiter",
         "year": 2023,
         "website": "https://damian.bio/"
+    },
+    {
+        "name": "Jonathan Xu",
+        "year": 2025,
+        "website": "https://jonathanxu.com/"
     }
 ];
 
