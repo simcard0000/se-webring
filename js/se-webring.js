@@ -59,7 +59,12 @@ const allSites = [
         "name": "Hannah Guo",
         "year": 2025,
         "website": "https://hannahguo.me/"
-    }
+    },
+    {
+        "name": "Alan Ma",
+        "year": 2023,
+        "website": "https://alan-ma.ca/"
+    },
 ];
 
 const options = {
