@@ -61,6 +61,11 @@ const allSites = [
         "website": "https://hannahguo.me/"
     },
     {
+        "name": "Alan Ma",
+        "year": 2023,
+        "website": "https://alan-ma.ca/"
+    },
+    {
         "name": "Mufeez Amjad",
         "year": 2023,
         "website": "https://mufeez.me"
