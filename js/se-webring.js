@@ -88,7 +88,7 @@ const allSites = [
     {
         "name": "Oren Leung",
         "year": 2025,
-        "website": "https://www.orenleung.com/"
+        "website": "https://orenleung.super.site/"
     }
 ];
 
