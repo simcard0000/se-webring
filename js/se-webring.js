@@ -99,6 +99,11 @@ const allSites = [
         "name": "Dylan Snelgrove",
         "year": 2024,
         "website": "https://dylansnelgrove.com"
+    },
+    {
+        "name": "Oren Leung",
+        "year": 2025,
+        "website": "https://orenleung.super.site/"
     }
 ];
 
