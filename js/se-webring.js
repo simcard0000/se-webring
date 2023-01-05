@@ -114,6 +114,11 @@ const allSites = [
         "name": "Laura Florea",
         "year": 2024, 
         "website": "https://www.florea.ca"
+    }, 
+    {
+        "name": "Jack Douglas",
+        "year": 2024, 
+        "website": "https://jackdouglas.tech"
     }
 ];
 
