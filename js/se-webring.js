@@ -129,6 +129,11 @@ const allSites = [
         "name": "Justin Lin",
         "year": 2027,
         "website": "https://justin-lin.com"
+    },
+    {
+        "name": "Rajan Agarwal",
+        "year": 2028,
+        "website": "https://rajan.sh"
     }
 ];
 
