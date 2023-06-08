@@ -131,6 +131,11 @@ const allSites = [
         "website": "https://justin-lin.com"
     },
     {
+        "name": "Donghwui Kim",
+        "year": 2027,
+        "website": "https://donghwui.com"
+    },
+    {
         "name": "Rajan Agarwal",
         "year": 2028,
         "website": "https://rajan.sh"
