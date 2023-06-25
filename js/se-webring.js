@@ -206,16 +206,16 @@ function fillSiteTable(type) {
         oldTable.remove();
     }
     let htmlContent = [];
-    htmlContent.push("<div class=\"sticky\" id=\"mainTable\">");
+    htmlContent.push("<ul class=\"sticky\" id=\"mainTable\">");
     for (let i = 0; i < siteArray.length; i++) {
         let cleanSite = new URL(siteArray[i]["website"]);
         let host = cleanSite.hostname;
         if (host.substring(0, 4) === "www."){
             host = host.substring(4, host.length);
         }
-        htmlContent.push("<button><a target=\"_blank\" href=\"" + cleanSite.toString() + "\">" + host + "</a></button>");
+        htmlContent.push("<li><a target=\"_blank\" href=\"" + cleanSite.toString() + "\">" + host + "</a></li>");
     }
-    htmlContent.push("</div>");
+    htmlContent.push("</ul>");
     divSiteList.insertAdjacentHTML(
          "afterend",
          htmlContent.join('')
