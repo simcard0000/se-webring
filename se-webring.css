@@ -29,13 +29,12 @@ a, p {
 }
 
 a:hover,
-button:focus,
 a:focus {
   color: white;
   transition: 1s;
 }
 
-button {
+#mainTable > li {
   border: 0;
   background-color: transparent;
   outline: none;
@@ -108,6 +107,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 #mainTable {
+  list-style: none;
   /* position: relative; */
   display: flex;
   align-items: center;
