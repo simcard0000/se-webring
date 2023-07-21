@@ -51,11 +51,6 @@ const allSites = [
         "website": "https://damian.bio/"
     },
     {
-        "name": "Ryan Nguyen",
-        "year": 2028,
-        "website": "https://rynguyen.com/"
-    },
-    {
         "name": "Jonathan Xu",
         "year": 2025,
         "website": "https://jonathanxu.com/"
@@ -164,7 +159,12 @@ const allSites = [
         "name": "Alex Zhu",
         "year": 2027,
         "website": "https://probablyalexzhu.github.io"
-    }
+    },
+    {
+        "name": "Ryan Nguyen",
+        "year": 2028,
+        "website": "https://rynguyen.com/"
+    },
 ];
 
 const options = {
