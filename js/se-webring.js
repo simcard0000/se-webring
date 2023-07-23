@@ -159,7 +159,12 @@ const allSites = [
         "name": "Alex Zhu",
         "year": 2027,
         "website": "https://probablyalexzhu.github.io"
-    }
+    },
+    {
+        "name": "Ryan Nguyen",
+        "year": 2028,
+        "website": "https://rynguyen.com/"
+    },
 ];
 
 const options = {
