@@ -165,6 +165,11 @@ const allSites = [
         "year": 2028,
         "website": "https://rynguyen.com/"
     },
+    {
+        "name": "Patrick Gu",
+        "year": 2028,
+        "website": "https://patrickgu.ca/"
+    },
 ];
 
 const options = {
