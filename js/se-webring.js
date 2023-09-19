@@ -103,7 +103,7 @@ const allSites = [
     {
         "name": "Oren Leung",
         "year": 2025,
-        "website": "https://orenleung.super.site/"
+        "website": "https://orenleung.com"
     },
     {
         "name": "Jason Zhou",
