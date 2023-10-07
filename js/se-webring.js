@@ -170,6 +170,11 @@ const allSites = [
         "year": 2028,
         "website": "https://patrickgu.ca/"
     },
+    {
+        "name": "Ian Korovinsky",
+        "year": 2028,
+        "website": "https://iankorovinsky.github.io/"
+    },
 ];
 
 const options = {
