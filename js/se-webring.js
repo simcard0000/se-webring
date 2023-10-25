@@ -175,6 +175,11 @@ const allSites = [
         "year": 2028,
         "website": "https://iankorovinsky.github.io/"
     },
+    {
+        "name": "Rajat Patwari",
+        "year": 2025,
+        "website": "https://rajatpatwari.com"
+    },
 ];
 
 const options = {
