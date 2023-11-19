@@ -180,6 +180,11 @@ const allSites = [
         "year": 2025,
         "website": "https://rajatpatwari.com"
     },
+    {
+        "name": "Jomills Jose Anand",
+        "year": 2026,
+        "website": "https://jomills.notion.site"
+    },
 ];
 
 const options = {
