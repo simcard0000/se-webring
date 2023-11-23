@@ -93,7 +93,7 @@ const allSites = [
     {
         "name": "Bilal Khan",
         "year": 2025,
-        "website": "https://bilal2vec.github.io"
+        "website": "https://bilal2vec.com"
     },
     {
         "name": "Dylan Snelgrove",
