@@ -185,6 +185,11 @@ const allSites = [
         "year": 2026,
         "website": "https://jomills.notion.site"
     },
+    {
+        "name": "Pearl Natalia",
+        "year": 2028,
+        "website": "https://pearlnatalia.com"
+    },
 ];
 
 const options = {
