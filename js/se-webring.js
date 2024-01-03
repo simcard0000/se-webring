@@ -190,6 +190,11 @@ const allSites = [
         "year": 2028,
         "website": "https://pearlnatalia.com"
     },
+    {
+        "name": "Anantjyot Grang",
+        "year": 2028,
+        "website": "https://www.anantjyotgrang.com"
+    }
 ];
 
 const options = {
