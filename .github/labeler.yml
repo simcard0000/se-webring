@@ -1,0 +1,3 @@
+add site:
+  - changed-files:
+    - any-glob-to-any-file: 'js/se-webring.js'
