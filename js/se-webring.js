@@ -194,7 +194,12 @@ const allSites = [
         "name": "Michael Pu",
         "year": 2024,
         "website": "https://mchlp.github.io/"
-    } 
+    },
+    {
+        "name": "Ishaan Dey",
+        "year": 2028,
+        "website": "https://www.ishaand.com/"
+    }
 ];
 
 const options = {
