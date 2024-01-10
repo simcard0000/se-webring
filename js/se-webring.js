@@ -199,7 +199,12 @@ const allSites = [
         "name": "Krish Modi",
         "year": 2028,
         "website": "https://krishmodi.com"
-    } 
+    },
+    {
+        "name": "Ishaan Dey",
+        "year": 2028,
+        "website": "https://www.ishaand.com/"
+    }
 ];
 
 const options = {
