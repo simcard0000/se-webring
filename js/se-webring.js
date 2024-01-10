@@ -191,6 +191,21 @@ const allSites = [
         "website": "https://pearlnatalia.com"
     },
     {
+        "name": "Michael Pu",
+        "year": 2024,
+        "website": "https://mchlp.github.io/"
+    },
+    {
+        "name": "Krish Modi",
+        "year": 2028,
+        "website": "https://krishmodi.com"
+    },
+    {
+        "name": "Ishaan Dey",
+        "year": 2028,
+        "website": "https://www.ishaand.com/"
+    },
+    {
         "name": "Anantjyot Grang",
         "year": 2028,
         "website": "https://www.anantjyotgrang.com"

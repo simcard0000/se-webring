@@ -1,0 +1,8 @@
+addReviewers: true
+addAssignees: author
+
+reviewers:
+  - simcard0000
+  - janakitti
+
+numberOfReviewers: 2
