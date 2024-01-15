@@ -1,4 +1,3 @@
-
 ![active development](https://img.shields.io/badge/active%20dev-yes-brightgreen.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/simcard0000/se-webring.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d0372fe9-b593-49b5-a586-48bd279d11b7/deploy-status)](https://app.netlify.com/sites/eager-mccarthy-ee07e5/deploys)
@@ -10,7 +9,7 @@
 A webring is a group of websites linked together in a circular manner, centered around a common theme. They were a big thing in the 90s, as they were used as a sort of search engine optimization technique. The idea behind the [SE Webring](https://se-webring.xyz/) is to have a central place list all websites (personal sites/portfolios) of current and prior SE students and make them more discoverable/increase traffic.
 
 ### How do I join?
-To add your site to the webring, you must be a current student or an alum of the [undergraduate Software Engineering program at the University of Waterloo](https://uwaterloo.ca/future-students/programs/software-engineering) (Waterloo, ON, Canada). You must also open a [pull request](https://github.com/simcard0000/se-webring/pulls) on this repo and include the information specified in the pull request template (full name, cohort year, full website URL, link to another profile to verify identity), and add your site entry to the end of the `allSites` array in the `se-webring.js` file (name, year, personal website).
+To add your site to the webring, you must be a current student or an alum of the [undergraduate Software Engineering program at the University of Waterloo](https://uwaterloo.ca/future-students/programs/software-engineering) (Waterloo, ON, Canada). You must also open a [pull request](https://github.com/simcard0000/se-webring/pulls) on this repo and include the information specified in the pull request template (full name, cohort year, full website URL, link to another profile to verify identity), and add your site entry to the end of the `allSites` array in the `sites.js` file (name, year, personal website).
 
 Your pull request will only be approved if you meet all requirements; and there is no inappropriate content. It is highly encouraged that you add a mention of the webring to your submitted site. Feel free to use the images/icons in `se-webring/assets/logo` on your website. This mention can either be a link back to the main site ([se-webring.xyz](https://se-webring.xyz/)), a link to the next person in the webring, or a link to both the previous and next person. For the latter two options, regarding the next person this might involve linking back to the first person in the ring and/or waiting for another pull request to be approved and linking to that new site instead. 
 
