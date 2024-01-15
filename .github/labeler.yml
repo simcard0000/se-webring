@@ -1,3 +1,20 @@
 add site:
   - changed-files:
-    - any-glob-to-any-file: 'js/se-webring.js'
+    - any-glob-to-any-file: 'js/sites.js'
+
+enhancement:
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'js/torus.js'
+      - 'js/se-webring.js'
+      - '.github/*'
+      - 'assets/*'
+      - '404.html'
+      - 'index.html'
+      - 'se-webring.css'
+
+documentation:
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'README.md'
+      - 'LICENSE'
