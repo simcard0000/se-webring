@@ -215,6 +215,11 @@ const allSites = [
         "website": "https://www.chrisfang.dev/"
     },
     {
+        "name": "Akshar Barot",
+        "year": 2028,
+        "website": "https://www.aksharbarot.com/"
+    },
+    {
         "name": "Steven Yang",
         "year": 2028,
         "website": "https://www.yangsteven.com/"
