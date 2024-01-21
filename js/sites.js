@@ -219,6 +219,11 @@ const allSites = [
         "year": 2028,
         "website": "https://www.aksharbarot.com/"
     },
+    {
+        "name": "Steven Yang",
+        "year": 2028,
+        "website": "https://www.yangsteven.com/"
+    }
 ];
 
 export default allSites;
