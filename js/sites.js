@@ -223,6 +223,11 @@ const allSites = [
         "name": "Steven Yang",
         "year": 2028,
         "website": "https://www.yangsteven.com/"
+    },
+    {
+        "name": "Darsh Shah",
+        "year": 2028,
+        "website": "https://www.darshshah.ca/"
     }
 ];
 
