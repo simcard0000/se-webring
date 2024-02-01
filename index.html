@@ -13,6 +13,14 @@
 	<meta property='og:description' content='A webring for Software Engineering students at the University of Waterloo.'/>
     <meta property='og:url' content='//se-webring.xyz/'/>
 	<title>SE Webring</title>
+	<script type="importmap">
+		{
+		  "imports": {
+			"three": "https://unpkg.com/three@v0.161.0/build/three.module.js",
+			"three/addons/": "https://unpkg.com/three@v0.161.0/examples/jsm/"
+		  }
+		}
+	</script>
 	<link rel="icon" href="./assets/logo/logo_bg_b.png">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,6 +52,5 @@
 	</div>
 	<div id="footer-container"><p id="footer-link"><a href="https://github.com/simcard0000/se-webring/pulls">add your site here ❯</a></p></div>
 </body>
-<script src="https://threejs.org/build/three.min.js"></script>
-<script src="./js/torus.js"></script>
+<script type="module" src="./js/torus.js"></script>
 </html>
