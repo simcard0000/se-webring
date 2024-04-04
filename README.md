@@ -17,7 +17,7 @@ Your pull request will only be approved if you meet all requirements; and there 
 
 ### Credits 
 * Logo designs were made with [Figma](https://www.figma.com), and the search bar icon is from an icon library provided by [Blueprint.js](https://blueprintjs.com/docs/#icons). 
-* The fuzzy search implementation is from [Fuse.js](https://fusejs.io/), and the animated torus is made using [Three.js](https://threejs.org/). 
+* The fuzzy search implementation is from [Fuse.js](https://fusejs.io/), and the animated torus is made using [Three.js](https://threejs.org/) - this is imported from a CDN using `importmap`, which may not work with older browsers (and will so far give a [W3C validation](https://validator.w3.org/about.html) error).
 * The website font is DM Mono (Colophon Foundry) via [Google Fonts](https://fonts.google.com/specimen/DM+Mono). 
 * [AccessLint](https://accesslint.com) provides accessibility checking on PRs.
 
