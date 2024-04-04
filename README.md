@@ -16,7 +16,10 @@ To add your site to the webring, you must be a current student or an alum of the
 Your pull request will only be approved if you meet all requirements; and there is no inappropriate content. It is highly encouraged that you add a mention of the webring to your submitted site. Feel free to use the images/icons in `se-webring/assets/logo` on your website. This mention can either be a link back to the main site ([se-webring.xyz](https://se-webring.xyz/)), a link to the next person in the webring, or a link to both the previous and next person. For the latter two options, regarding the next person this might involve linking back to the first person in the ring and/or waiting for another pull request to be approved and linking to that new site instead. 
 
 ### Credits 
-Logo designs were made with [Figma](https://www.figma.com), and the search bar icon is from an icon library provided by [Blueprint.js](https://blueprintjs.com/docs/#icons). The fuzzy search implementation is from [Fuse.js](https://fusejs.io/), and the animated torus is made using [Three.js](https://threejs.org/). The website font is DM Mono (Colophon Foundry) via [Google Fonts](https://fonts.google.com/specimen/DM+Mono). 
+* Logo designs were made with [Figma](https://www.figma.com), and the search bar icon is from an icon library provided by [Blueprint.js](https://blueprintjs.com/docs/#icons). 
+* The fuzzy search implementation is from [Fuse.js](https://fusejs.io/), and the animated torus is made using [Three.js](https://threejs.org/). 
+* The website font is DM Mono (Colophon Foundry) via [Google Fonts](https://fonts.google.com/specimen/DM+Mono). 
+* [AccessLint](https://accesslint.com) provides accessibility checking on PRs.
 
 ~
 
