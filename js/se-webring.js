@@ -42,7 +42,9 @@ function changeSearchIconColour(flag) {
     }
 }
 
-window.changeSearchIconColour = changeSearchIconColour;
+const searchbarInput = document.getElementById("searchbarInput");
+searchbarInput.addEventListener("focus", changeSearchIconColour(true));
+searchbarInput.addEventListener("focusout", changeSearchIconColour(false));
 
 function fillSiteTable(type) {
     const searchBar = document.getElementById("searchbarInput");
