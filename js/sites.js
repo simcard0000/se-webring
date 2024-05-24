@@ -263,6 +263,11 @@ const allSites = [
         "name": "Abhinav Balasubramanian",
         "year": 2027,
         "website": "https://abhinav-bala.github.io/portfolio/"
+    },
+    {
+        "name": "Umar Mustafa",
+        "year": 2028,
+        "website": "https://umaralimustafa.vercel.app"
     }
 ];
 
