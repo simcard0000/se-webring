@@ -1,10 +1,5 @@
 const allSites = [
     {
-        "name": "Elijah Kurien",
-        "year": 2028,
-        "website": "https://www.elijahkurien.com/"
-    },
-    {
         "name": "Simran Thind",
         "year": 2025,
         "website": "https://www.simranthind.me/"
@@ -273,7 +268,12 @@ const allSites = [
         "name": "Umar Mustafa",
         "year": 2028,
         "website": "https://umaralimustafa.vercel.app"
-    }
+    },
+        {
+        "name": "Elijah Kurien",
+        "year": 2028,
+        "website": "https://www.elijahkurien.com/"
+    },
 ];
 
 export default allSites;
