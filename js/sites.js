@@ -1,5 +1,10 @@
 const allSites = [
     {
+        "name": "Elijah Kurien",
+        "year": 2028,
+        "website": "https://www.elijahkurien.com/"
+    },
+    {
         "name": "Simran Thind",
         "year": 2025,
         "website": "https://www.simranthind.me/"
