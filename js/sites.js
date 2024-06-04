@@ -268,7 +268,12 @@ const allSites = [
         "name": "Umar Mustafa",
         "year": 2028,
         "website": "https://umaralimustafa.vercel.app"
-    }
+    },
+        {
+        "name": "Elijah Kurien",
+        "year": 2028,
+        "website": "https://www.elijahkurien.com/"
+    },
 ];
 
 export default allSites;
