@@ -7,18 +7,10 @@
 <img alt="se-webring icon" src="https://github.com/simcard0000/se-webring/blob/main/assets/logo/logo_bg_b.png" width="100" height="100">
 💜 A webring (more like web-star 🤣) for Software Engineering (SE) students at the University of Waterloo.
 
-🟣 [What's a webring?](#whats-a-webring) / [Mentions](#mentions) / [How do I join?](#how-do-i-join) / [Credits](#credits)
+🟣 [What's a webring?](#whats-a-webring) / [How do I join?](#how-do-i-join) / [Mentions](#mentions) / [Credits](#credits)
 
 ### What's a webring?
 A webring is a group of websites linked together in a circular manner, centered around a common theme. They were a big thing in the 90s, as they were used as a sort of search engine optimization technique. The idea behind the [SE Webring](https://se-webring.xyz/) is to have a central place list all websites (personal sites/portfolios) of current and prior SE students and make them more discoverable/increase traffic.
-
-### Mentions
-It's nice to see that other people have stumbled across the webring! Projects that have taken inspiration from SE Webring and other mentions are listed here:
-- [Design Waterloo](https://designwaterloo.notion.site/Design-Waterloo-ed321f1df1974e5cb8084949c1d5cd5e) ![Design Waterloo Shoutout](./assets/mentions/design-waterloo.png)
-- [ECE Webring - ece.engineering](https://ece.engineering/) / [repo](https://github.com/roozbehali/ece_webring) ![ECE Webring Shoutout #1](./assets/mentions/ece-webring-1.png) ![ECE Webring Shoutout #2](./assets/mentions/ece-webring-2.png)
-    - [Old ECE Webring](https://uw-ece.github.io/webring/) / [repo](https://github.com/uw-ece/webring) ![ECE Webring Shoutout #3](./assets/mentions/ece-webring-3.png)
-- [McGill CS Webring](https://mcgillcswebring.org/) / [repo](https://github.com/leofalvo/mcgillcswebring.org) ![McGill Webring Shoutout](./assets/mentions/mcgill-webring.png)
-- Others ![Tweet #1](./assets/mentions/tweet-1.png) ![Email #1](./assets/mentions/email-1.png)
 
 ### How do I join?
 To add your site to the webring, you must be a current student or an alum of the [undergraduate Software Engineering program at the University of Waterloo](https://uwaterloo.ca/future-students/programs/software-engineering) (Waterloo, ON, Canada). 
@@ -26,7 +18,25 @@ To add your site to the webring, you must be a current student or an alum of the
 
 Your pull request will only be approved if you meet all requirements; and there is no inappropriate content. 
 * It is highly encouraged that you add a mention of the webring to your submitted site. Feel free to use the images/icons in `se-webring/assets/logo` on your website. 
-* This mention can either be a link back to the main site ([se-webring.xyz](https://se-webring.xyz/)), a link to the next person in the webring, or a link to both the previous and next person. For the latter two options, regarding the next person this might involve linking back to the first person in the ring and/or waiting for another pull request to be approved and linking to that new site instead. 
+* This mention can either be a link back to the main site ([se-webring.xyz](https://se-webring.xyz/)), a link to the next person in the webring, or a link to both the previous and next person. For the latter two options, regarding the next person this might involve linking back to the first person in the ring and/or waiting for another pull request to be approved and linking to that new site instead.
+
+### Mentions
+It's nice to see that other people have stumbled across the webring! Projects that have taken inspiration from SE Webring and other mentions are listed here:
+- [Design Waterloo](https://designwaterloo.notion.site/Design-Waterloo-ed321f1df1974e5cb8084949c1d5cd5e)
+
+  ![Design Waterloo Shoutout](./assets/mentions/design-waterloo.png)
+- [ECE Webring - ece.engineering](https://ece.engineering/) / [repo](https://github.com/roozbehali/ece_webring)
+
+  ![ECE Webring Shoutout #1](./assets/mentions/ece-webring-1.png) ![ECE Webring Shoutout #2](./assets/mentions/ece-webring-2.png)
+    - [Old ECE Webring](https://uw-ece.github.io/webring/) / [repo](https://github.com/uw-ece/webring)
+
+      ![ECE Webring Shoutout #3](./assets/mentions/ece-webring-3.png)
+- [McGill CS Webring](https://mcgillcswebring.org/) / [repo](https://github.com/leofalvo/mcgillcswebring.org)
+
+  ![McGill Webring Shoutout](./assets/mentions/mcgill-webring.png)
+- Others
+
+  ![Tweet #1](./assets/mentions/tweet-1.png) ![Email #1](./assets/mentions/email-1.png)
 
 ### Credits 
 * Logo designs were made with [Figma](https://www.figma.com), and the search bar icon is from an icon library provided by [Blueprint.js](https://blueprintjs.com/docs/#icons). 
