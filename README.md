@@ -7,13 +7,14 @@
 <img alt="se-webring icon" src="https://github.com/simcard0000/se-webring/blob/main/assets/logo/logo_bg_b.png" width="100" height="100">
 💜 A webring (more like web-star 😩) for Software Engineering (SE) students at the University of Waterloo.
 
-## Table of Contents
-1. [What's a webring?](#whats-a-webring)
-2. [How do I join?](#how-do-i-join)
-3. [Credits](#credits)
+🟣[What's a webring?](#whats-a-webring) / [Mentions](#mentions) / [How do I join?](#how-do-i-join) / [Credits](#credits)
 
 ### What's a webring?
 A webring is a group of websites linked together in a circular manner, centered around a common theme. They were a big thing in the 90s, as they were used as a sort of search engine optimization technique. The idea behind the [SE Webring](https://se-webring.xyz/) is to have a central place list all websites (personal sites/portfolios) of current and prior SE students and make them more discoverable/increase traffic.
+
+### Mentions
+Projects that have taken inspiration from SE Webring and other mentions:
+- [Design Waterloo](https://designwaterloo.notion.site/Design-Waterloo-ed321f1df1974e5cb8084949c1d5cd5e)
 
 ### How do I join?
 To add your site to the webring, you must be a current student or an alum of the [undergraduate Software Engineering program at the University of Waterloo](https://uwaterloo.ca/future-students/programs/software-engineering) (Waterloo, ON, Canada). You must also open a [pull request](https://github.com/simcard0000/se-webring/pulls) on this repo and include the information specified in the pull request template (full name, cohort year, full website URL, link to another profile to verify identity), and add your site entry to the end of the `allSites` array in the `sites.js` file (name, year, personal website).
