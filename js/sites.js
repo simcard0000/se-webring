@@ -274,6 +274,11 @@ const allSites = [
         "year": 2028,
         "website": "https://www.elijahkurien.com/"
     },
+    {
+        "name": "Max Lu",
+        "year": 2027,
+        "website": "https://redcx.ca/"
+    },
 ];
 
 export default allSites;
