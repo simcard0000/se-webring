@@ -269,10 +269,15 @@ const allSites = [
         "year": 2028,
         "website": "https://umaralimustafa.vercel.app"
     },
-        {
+    {
         "name": "Elijah Kurien",
         "year": 2028,
         "website": "https://www.elijahkurien.com/"
+    },
+    {
+        "name": "Nicholas Ficara",
+        "year": 2027,
+        "website": "https://nicholasficara.dev/"
     },
 ];
 
