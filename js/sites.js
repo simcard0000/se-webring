@@ -274,6 +274,11 @@ const allSites = [
         "year": 2028,
         "website": "https://www.elijahkurien.com/"
     },
+        {
+        "name": "Pavithran Chelliahpillai",
+        "year": 2029, 
+        "website": "https://pchelliahpillai.com/"
+    },
 ];
 
 export default allSites;
