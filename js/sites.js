@@ -274,6 +274,11 @@ const allSites = [
         "year": 2028,
         "website": "https://www.elijahkurien.com/"
     },
+    {
+        "name": "Lucas Kim",
+        "year": 2029,
+        "website": "https://lucaskamadakim.com/"
+    },
 ];
 
 export default allSites;
