@@ -279,6 +279,11 @@ const allSites = [
         "year": 2029,
         "website": "https://lucaskamadakim.com/"
     },
+    {
+        "name": "Alice Zhao",
+        "year": 2028,
+        "website": "http://aliicezhao.com/"
+    }
 ];
 
 export default allSites;
