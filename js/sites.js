@@ -288,7 +288,13 @@ const allSites = [
         "name": "Pavithran Chelliahpillai",
         "year": 2029, 
         "website": "https://pchelliahpillai.com/"
+    },
+    {
+        "name": "George Wang",
+        "year": 2027,
+        "website": "https://georgewang.dev/"
     }
+
 ];
 
 export default allSites;
