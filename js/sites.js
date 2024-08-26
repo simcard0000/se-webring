@@ -283,6 +283,11 @@ const allSites = [
         "name": "Alice Zhao",
         "year": 2028,
         "website": "http://aliicezhao.com/"
+    },
+    {
+        "name": "Pavithran Chelliahpillai",
+        "year": 2029, 
+        "website": "https://pchelliahpillai.com/"
     }
 ];
 
