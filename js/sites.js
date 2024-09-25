@@ -112,7 +112,7 @@ const allSites = [
     {
         "name": "Jack Douglas",
         "year": 2024,
-        "website": "https://jackdouglas.tech"
+        "website": "https://j-douglas.github.io"
     },
     {
         "name": "Evan Zhang",
