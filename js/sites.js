@@ -283,6 +283,11 @@ const allSites = [
         "name": "Pavithran Chelliahpillai",
         "year": 2029,
         "website": "https://pchelliahpillai.com/"
+    },
+    {
+        "name": "Adam Chen",
+        "year": 2028,
+        "website": "https://encodeous.ca"
     }
 ];
 
