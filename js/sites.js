@@ -283,7 +283,12 @@ const allSites = [
         "name": "Pavithran Chelliahpillai",
         "year": 2029,
         "website": "https://pchelliahpillai.com/"
-    }
+    },
+    {
+        "name": "Paul Lee",
+        "year": 2028,
+        "website": "https://paullee.dev/",
+    },
 ];
 
 export default allSites;
