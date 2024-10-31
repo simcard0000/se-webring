@@ -293,6 +293,11 @@ const allSites = [
         "name": "Adam Chen",
         "year": 2028,
         "website": "https://encodeous.ca"
+    },
+    {
+        "name": "George Wang",
+        "year": 2027,
+        "website": "https://georgewang.dev/"
     }
 ];
 
