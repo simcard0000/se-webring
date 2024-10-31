@@ -289,6 +289,11 @@ const allSites = [
         "year": 2028,
         "website": "https://paullee.dev/",
     },
+    {
+        "name": "Adam Chen",
+        "year": 2028,
+        "website": "https://encodeous.ca"
+    }
 ];
 
 export default allSites;
