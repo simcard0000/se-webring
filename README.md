@@ -34,6 +34,9 @@ It's nice to see that other people have stumbled across the webring! Projects th
 - [McGill CS Webring](https://mcgillcswebring.org/) / [repo](https://github.com/leofalvo/mcgillcswebring.org)
 
   ![McGill Webring Shoutout](./assets/mentions/mcgill-webring.png)
+- [UOttawa EECS Webring](https://farooqqureshi.com/eecs-webring/) / [repo](https://github.com/farooqqureshii/eecs-webring)
+
+  ![UOttawa Webring Shoutout #1](./assets/mentions/ottawa-webring-1.png) ![UOttawa Webring Shoutout #2](./assets/mentions/ottawa-webring-2.png)
 - Others
 
   ![Tweet #1](./assets/mentions/tweet-1.png) ![Email #1](./assets/mentions/email-1.png)

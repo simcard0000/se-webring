@@ -75,11 +75,6 @@ const allSites = [
         "website": "https://yifeiz.com"
     },
     {
-        "name": "Elena Pan",
-        "year": 2025,
-        "website": "https://elena-pan.github.io/"
-    },
-    {
         "name": "Ryan Deng",
         "year": 2024,
         "website": "https://www.ryandeng.me/"
@@ -117,7 +112,7 @@ const allSites = [
     {
         "name": "Jack Douglas",
         "year": 2024,
-        "website": "https://jackdouglas.tech"
+        "website": "https://j-douglas.github.io"
     },
     {
         "name": "Evan Zhang",
@@ -269,7 +264,7 @@ const allSites = [
         "year": 2028,
         "website": "https://umaralimustafa.vercel.app"
     },
-        {
+    {
         "name": "Elijah Kurien",
         "year": 2028,
         "website": "https://www.elijahkurien.com/"
@@ -286,15 +281,24 @@ const allSites = [
     },
     {
         "name": "Pavithran Chelliahpillai",
-        "year": 2029, 
+        "year": 2029,
         "website": "https://pchelliahpillai.com/"
+    },
+    {
+        "name": "Paul Lee",
+        "year": 2028,
+        "website": "https://paullee.dev/",
+    },
+    {
+        "name": "Adam Chen",
+        "year": 2028,
+        "website": "https://encodeous.ca"
     },
     {
         "name": "George Wang",
         "year": 2027,
         "website": "https://georgewang.dev/"
     }
-
 ];
 
 export default allSites;
