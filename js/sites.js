@@ -112,7 +112,7 @@ const allSites = [
     {
         "name": "Jack Douglas",
         "year": 2024,
-        "website": "https://jackdouglas.tech"
+        "website": "https://j-douglas.github.io"
     },
     {
         "name": "Evan Zhang",
@@ -283,6 +283,11 @@ const allSites = [
         "name": "Pavithran Chelliahpillai",
         "year": 2029,
         "website": "https://pchelliahpillai.com/"
+    },
+    {
+        "name": "Paul Lee",
+        "year": 2028,
+        "website": "https://paullee.dev/",
     },
     {
         "name": "Adam Chen",
