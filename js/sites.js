@@ -318,7 +318,12 @@ const allSites = [
         "name": "Balaji Leninrajan",
         "year": 2028,
         "website": "https://balajileninrajan.github.io/homepage/"
-    }
+    },
+    {
+        "name": "Patrick Huang",
+        "year": 2028,
+        "website": "https://www.patrickhuang.co/"
+    },
 ];
 
 export default allSites;
