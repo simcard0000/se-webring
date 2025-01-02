@@ -167,7 +167,7 @@ const allSites = [
     {
         "name": "Ian Korovinsky",
         "year": 2028,
-        "website": "https://iankorovinsky.github.io/"
+        "website": "https://iankorovinsky.ca"
     },
     {
         "name": "Rajat Patwari",
