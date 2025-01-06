@@ -324,6 +324,11 @@ const allSites = [
         "year": 2028,
         "website": "https://www.patrickhuang.co/"
     },
+    {
+        "name": "Krish Shah",
+        "year": 2028,
+        "website": "https://shahkrish.ca/"
+    }
 ];
 
 export default allSites;
