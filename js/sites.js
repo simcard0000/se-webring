@@ -333,6 +333,11 @@ const allSites = [
         "name": "Sumedh Dhanvanthry",
         "year": 2027,
         "website": "https://sumedh.ca/"
+    },
+    {
+        "name": "Adam Selim",
+        "year": 2029,
+        "website": "https://adamselim.com/"
     }
 ];
 
