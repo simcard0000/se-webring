@@ -350,9 +350,9 @@ const allSites = [
         "website": "https://nuthanan.com/"
     },
     {
-        "name": "Nuthanan Tharmarajah",
-        "year": 2029,
-        "website": "https://nuthanan.com/"
+        "name": "Lindsay Zhang",
+        "year": 2027,
+        "website": "https://itslinds.dev/"
     }
 ];
 
