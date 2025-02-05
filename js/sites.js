@@ -358,6 +358,11 @@ const allSites = [
         "name": "Amruth Arunkumar",
         "year": 2027,
         "website": "https://amrutharunkumar.github.io/"
+    },
+    {
+        "name": "Honzik Schenk",
+        "year": 2029,
+        "website": "https://honzikschenk.me/"
     }
 ];
 
