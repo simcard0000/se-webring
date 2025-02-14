@@ -217,7 +217,7 @@ const allSites = [
     {
         "name": "Steven Yang",
         "year": 2028,
-        "website": "https://www.yangsteven.com/"
+        "website": "https://www.yangsteven.ca/"
     },
     {
         "name": "Darsh Shah",
