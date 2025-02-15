@@ -367,7 +367,7 @@ const allSites = [
     {
         "name": "Finn Cullen",
         "year": 2029,
-        "website": "https://fatcullen.github.io/"
+        "website": "https://fatcullen.me/"
     }
 ];
 
