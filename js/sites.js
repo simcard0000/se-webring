@@ -252,7 +252,7 @@ const allSites = [
     {
         "name": "Aarjav Patni",
         "year": 2028,
-        "website": "https://aarjavpatni.me/"
+        "website": "https://aarjav.xyz/"
     },
     {
         "name": "Abhinav Balasubramanian",
