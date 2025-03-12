@@ -373,6 +373,11 @@ const allSites = [
         "name": "Adeel Akhani",
         "year": 2029,
         "website": "https://www.adeelakhani.com/"
+    },
+    {
+        "name": "Mohan Dong",
+        "year": 2030,
+        "website": "https://www.powerium.io/"
     }
 ];
 
