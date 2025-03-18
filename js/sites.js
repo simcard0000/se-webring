@@ -32,7 +32,7 @@ const allSites = [
     {
         "name": "Zuomiao Hu",
         "year": 2024,
-        "website": "http://zonahu.github.io/"
+        "website": "https://zonahu.github.io/"
     },
     {
         "name": "Yash Arora",
