@@ -237,7 +237,7 @@ const allSites = [
     {
         "name": "Aurora Shi",
         "year": 2028,
-        "website": "https://aurorashi.live/"
+        "website": "https://aurorashi.com/"
     },
     {
         "name": "Brian Zhang",
