@@ -383,6 +383,11 @@ const allSites = [
         "name": "Siddh Patel",
         "year": 2029,
         "website": "https://www.siddhp.com/"
+    },
+    {
+        "name": "Julia Ilioukhina",
+        "year": 2028,
+        "website": "https://www.juliailio.com/"
     }
 ];
 
