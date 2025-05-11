@@ -388,6 +388,11 @@ const allSites = [
         "name": "Julia Ilioukhina",
         "year": 2028,
         "website": "https://www.juliailio.com/"
+    },
+    {
+        "name": "Alex Starosta",
+        "year": 2028,
+        "website": "https://alexstarosta.dev"
     }
 ];
 
