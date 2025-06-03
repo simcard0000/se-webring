@@ -394,6 +394,11 @@ const allSites = [
         "year": 2028,
         "website": "https://alexstarosta.dev"
     }
+    {
+        "name": "Rawsab Said",
+        "year": 2027,
+        "website": "https://rawsab.com"
+    }
 ];
 
 export default allSites;
