@@ -393,7 +393,7 @@ const allSites = [
         "name": "Alex Starosta",
         "year": 2028,
         "website": "https://alexstarosta.dev"
-    }
+    },
     {
         "name": "Rawsab Said",
         "year": 2027,
