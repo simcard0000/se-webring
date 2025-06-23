@@ -398,6 +398,11 @@ const allSites = [
         "name": "Jasmehar Kaur",
         "year": 2029,
         "website": "https://jasmehar-k.github.io/"
+    },
+    {
+        "name": "Rawsab Said",
+        "year": 2027,
+        "website": "https://rawsab.com" 
     }
 ];
 
