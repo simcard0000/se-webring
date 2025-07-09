@@ -403,7 +403,12 @@ const allSites = [
         "name": "Rawsab Said",
         "year": 2027,
         "website": "https://rawsab.com" 
-    }
+    },
+    {
+        "name": "Hwiseong Ahn",
+        "year": 2030,
+        "website": "https://www.hwiseong.com/en"
+    }    
 ];
 
 export default allSites;
