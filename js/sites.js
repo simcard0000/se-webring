@@ -405,10 +405,15 @@ const allSites = [
         "website": "https://rawsab.com" 
     },
     {
+        "name": "Qinkai Li",
+        "year": 2030,
+        "website": "https://manfromthefog.vercel.app/" 
+    },
+    {
         "name": "Hwiseong Ahn",
         "year": 2030,
         "website": "https://www.hwiseong.com/en"
-    }    
+    }  
 ];
 
 export default allSites;
