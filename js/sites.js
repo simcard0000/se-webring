@@ -423,6 +423,11 @@ const allSites = [
         "name": "Koral Kulacoglu",
         "year": 2028,
         "website": "https://koralkulacoglu.com"
+    },
+    {
+        "name": "Geoffrey Lee",
+        "year": 2028,
+        "website": "https://www.geoffreylee.me/"
     }
 ];
 
