@@ -423,6 +423,11 @@ const allSites = [
         "name": "Koral Kulacoglu",
         "year": 2028,
         "website": "https://koralkulacoglu.com"
+    },
+    {
+        "name": "Ekanshh Praveen",
+        "year": 2026,
+        "website": "https://www.ekpraveen.ca/"
     }
 ];
 
