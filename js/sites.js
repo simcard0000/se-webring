@@ -425,6 +425,16 @@ const allSites = [
         "website": "https://koralkulacoglu.com"
     },
     {
+        "name": "Ekanshh Praveen",
+        "year": 2026,
+        "website": "https://www.ekpraveen.ca/"
+    },
+    {
+        "name": "Sarah Yoo",
+        "year": 2030,
+        "website": "https://sarahyoo.vercel.app"
+    },
+    {
         "name": "Geoffrey Lee",
         "year": 2028,
         "website": "https://www.geoffreylee.me/"
