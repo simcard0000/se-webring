@@ -443,7 +443,12 @@ const allSites = [
         "name": "Lucas Liao",
         "year": 2029,
         "website": "https://liaolucas.com/"
-    }
+    },
+    {
+        "name": "William Yang",
+        "year": 2030,
+        "website": "https://williamyang.ca/"
+    },
 ];
 
 export default allSites;
