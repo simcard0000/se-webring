@@ -445,10 +445,15 @@ const allSites = [
         "website": "https://liaolucas.com/"
     },
     {
+        "name": "Justin Abuyuan",
+        "year": 2029,
+        "website": "https://justin-abuyuan.xyz/"
+    },
+    {
         "name": "William Yang",
         "year": 2030,
         "website": "https://williamyang.ca/"
-    },
+    }
 ];
 
 export default allSites;
