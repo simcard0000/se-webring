@@ -453,6 +453,11 @@ const allSites = [
         "name": "William Yang",
         "year": 2030,
         "website": "https://williamyang.ca/"
+    },
+    {
+        "name": "Harley Zhang",
+        "year": 2029,
+        "website": "https://www.harleyzhang.me/"
     }
 ];
 
