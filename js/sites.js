@@ -459,6 +459,11 @@ const allSites = [
         "year": 2029,
         "website": "https://www.harleyzhang.me/"
     }
+    {
+        "name": "Angelina Wang",
+        "year": 2029,
+        "website": "https://archangelinux.vercel.app/"
+    }
 ];
 
 export default allSites;
