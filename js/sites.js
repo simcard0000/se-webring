@@ -468,6 +468,11 @@ const allSites = [
         "name": "Louie Yin",
         "year": 2029,
         "website": "https://www.louiefatooey.space/"
+    },
+    {
+        "name": "Angelina Wang",
+        "year": 2029,
+        "website": "https://archangelinux.vercel.app/"
     }
 ];
 
