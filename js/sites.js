@@ -458,6 +458,11 @@ const allSites = [
         "name": "Harley Zhang",
         "year": 2029,
         "website": "https://www.harleyzhang.me/"
+    },
+    {
+      "name": "Tobias Livadariu",
+      "year": 2029,
+      "website": "https://www.tobias-livadariu.online/portfolio/"
     }
 ];
 
