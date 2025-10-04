@@ -463,6 +463,11 @@ const allSites = [
       "name": "Tobias Livadariu",
       "year": 2029,
       "website": "https://www.tobias-livadariu.online/portfolio/"
+    },
+    {
+        "name": "Louie Yin",
+        "year": 2029,
+        "website": "https://www.louiefatooey.space/"
     }
 ];
 
