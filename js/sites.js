@@ -473,7 +473,12 @@ const allSites = [
         "name": "Angelina Wang",
         "year": 2029,
         "website": "https://archangelinux.vercel.app/"
-    }
+    },
+    {
+        "name": "Ricky Tang",
+        "year": 2030,
+        "website": "https://www.rickyt.tech/"
+    },
 ];
 
 export default allSites;
