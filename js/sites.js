@@ -479,6 +479,11 @@ const allSites = [
         "year": 2030,
         "website": "https://www.rickyt.tech/"
     },
+    {
+        "name": "David Hua",
+        "year": 2025,
+        "website": "https://davidhua.ca/"
+    }
 ];
 
 export default allSites;
