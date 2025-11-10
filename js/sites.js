@@ -483,6 +483,11 @@ const allSites = [
         "name": "David Hua",
         "year": 2025,
         "website": "https://davidhua.ca/"
+    },
+    {
+        "name": "Hamza Ammar",
+        "year": 2030,
+        "website": "https://hamzaammar.ca/"
     }
 ];
 
