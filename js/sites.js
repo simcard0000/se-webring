@@ -477,7 +477,7 @@ const allSites = [
     {
         "name": "Ricky Tang",
         "year": 2030,
-        "website": "https://www.rickyt.tech/"
+        "website": "https://www.rickytang.dev/"
     },
     {
         "name": "David Hua",
