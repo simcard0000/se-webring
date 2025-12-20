@@ -408,6 +408,91 @@ const allSites = [
         "name": "Qinkai Li",
         "year": 2030,
         "website": "https://batteryspecial.vercel.app/" 
+    },
+    {
+        "name": "Hwiseong Ahn",
+        "year": 2030,
+        "website": "https://www.hwiseong.com/en"
+    },
+    {
+        "name": "Sean Yang",
+        "year": 2030,
+        "website": "https://seanyang.me/"
+    },
+    {
+        "name": "Koral Kulacoglu",
+        "year": 2028,
+        "website": "https://koralkulacoglu.com"
+    },
+    {
+        "name": "Ekanshh Praveen",
+        "year": 2026,
+        "website": "https://www.ekpraveen.ca/"
+    },
+    {
+        "name": "Sarah Yoo",
+        "year": 2030,
+        "website": "https://sarahyoo.vercel.app"
+    },
+    {
+        "name": "Geoffrey Lee",
+        "year": 2028,
+        "website": "https://www.geoffreylee.me/"
+    },
+    {
+        "name": "Lucas Liao",
+        "year": 2029,
+        "website": "https://liaolucas.com/"
+    },
+    {
+        "name": "Justin Abuyuan",
+        "year": 2029,
+        "website": "https://justin-abuyuan.xyz/"
+    },
+    {
+        "name": "William Yang",
+        "year": 2030,
+        "website": "https://williamyang.ca/"
+    },
+    {
+        "name": "Harley Zhang",
+        "year": 2029,
+        "website": "https://www.harleyzhang.me/"
+    },
+    {
+      "name": "Tobias Livadariu",
+      "year": 2029,
+      "website": "https://www.tobias-livadariu.online/portfolio/"
+    },
+    {
+        "name": "Louie Yin",
+        "year": 2029,
+        "website": "https://www.louiefatooey.space/"
+    },
+    {
+        "name": "Angelina Wang",
+        "year": 2029,
+        "website": "https://archangelinux.vercel.app/"
+    },
+    {
+        "name": "Ricky Tang",
+        "year": 2030,
+        "website": "https://www.rickytang.dev/"
+    },
+    {
+        "name": "David Hua",
+        "year": 2025,
+        "website": "https://davidhua.ca/"
+    },
+    {
+        "name": "Hamza Ammar",
+        "year": 2030,
+        "website": "https://hamzaammar.ca/"
+    },
+    {
+        "name": "Aayush Patel",
+        "year": 2028,
+        "website": "https://aayushpatel.me/"
     }
 ];
 
