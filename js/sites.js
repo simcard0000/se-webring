@@ -407,7 +407,7 @@ const allSites = [
     {
         "name": "Qinkai Li",
         "year": 2030,
-        "website": "https://manfromthefog.vercel.app/" 
+        "website": "https://batteryspecial.vercel.app/" 
     },
     {
         "name": "Hwiseong Ahn",
