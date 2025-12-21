@@ -494,6 +494,11 @@ const allSites = [
         "year": 2028,
         "website": "https://aayushpatel.me/"
     }
+    {
+        "name": "Liron Katsif",
+        "year": 2030,
+        "website": "https://lironkatsif.com/"
+    }
 ];
 
 export default allSites;
