@@ -503,6 +503,11 @@ const allSites = [
         "name": "Liron Katsif",
         "year": 2030,
         "website": "https://lironkatsif.com/"
+    },
+    {
+        "name": "Qian Qian",
+        "year": 2030,
+        "website": "https://qubik65536.top/"
     }
 ];
 
