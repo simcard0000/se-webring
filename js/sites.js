@@ -402,12 +402,12 @@ const allSites = [
     {
         "name": "Rawsab Said",
         "year": 2027,
-        "website": "https://rawsab.com" 
+        "website": "https://rawsab.com"
     },
     {
         "name": "Qinkai Li",
         "year": 2030,
-        "website": "https://batteryspecial.vercel.app/" 
+        "website": "https://batteryspecial.vercel.app/"
     },
     {
         "name": "Hwiseong Ahn",
@@ -460,9 +460,9 @@ const allSites = [
         "website": "https://www.harleyzhang.me/"
     },
     {
-      "name": "Tobias Livadariu",
-      "year": 2029,
-      "website": "https://www.tobias-livadariu.online/portfolio/"
+        "name": "Tobias Livadariu",
+        "year": 2029,
+        "website": "https://www.tobias-livadariu.online/portfolio/"
     },
     {
         "name": "Louie Yin",
@@ -498,6 +498,16 @@ const allSites = [
         "name": "Abdullah Rajput",
         "year": 2030,
         "website": "https://abrj7.github.io/"
+    },
+    {
+        "name": "Liron Katsif",
+        "year": 2030,
+        "website": "https://lironkatsif.com/"
+    },
+    {
+        "name": "Qian Qian",
+        "year": 2030,
+        "website": "https://qubik65536.top/"
     },
     {
         "name": "Grayson Rechsteiner",
