@@ -508,6 +508,11 @@ const allSites = [
         "name": "Qian Qian",
         "year": 2030,
         "website": "https://qubik65536.top/"
+    },
+    {
+        "name": "Grayson Rechsteiner",
+        "year": 2027,
+        "website": "https://grechsteiner.github.io/"
     }
 ];
 
