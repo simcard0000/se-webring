@@ -513,7 +513,12 @@ const allSites = [
         "name": "Grayson Rechsteiner",
         "year": 2027,
         "website": "https://grechsteiner.github.io/"
-    }
+    },
+    {
+        "name": "Akishai Sabaratnasarma",
+        "year": 2030,
+        "website": "https://akishai18.github.io/"
+    },
 ];
 
 export default allSites;
