@@ -519,6 +519,11 @@ const allSites = [
         "year": 2030,
         "website": "https://akishai18.github.io/"
     },
+        {
+        "name": "Anna Poutanen",
+        "year": 2030,
+        "website": "https://anna-poutanen.github.io/"
+    },
 ];
 
 export default allSites;
