@@ -519,6 +519,11 @@ const allSites = [
         "year": 2030,
         "website": "https://akishai18.github.io/"
     },
+    {
+        "name": "Gabriel Faigan",
+        "year": 2030,
+        "website": "https://faigan.com/"
+    }
 ];
 
 export default allSites;
