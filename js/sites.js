@@ -519,6 +519,11 @@ const allSites = [
         "year": 2030,
         "website": "https://akishai18.github.io/"
     },
+     {
+        "name": "Quinn Wang",
+        "year": 2030,
+        "website": "https://wangquinn.vercel.app/"
+    },
 ];
 
 export default allSites;
