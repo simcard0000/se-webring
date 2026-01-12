@@ -523,6 +523,11 @@ const allSites = [
         "name": "Gabriel Faigan",
         "year": 2030,
         "website": "https://faigan.com/"
+    },
+    {
+        "name": "Quinn Wang",
+        "year": 2030,
+        "website": "https://wangquinn.vercel.app/"
     }
 ];
 
