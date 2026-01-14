@@ -530,7 +530,7 @@ const allSites = [
         "website": "https://wangquinn.vercel.app/"
     },
     {
-         "name": "Bhuvnesh Nagpal",
+        "name": "Bhuvnesh Nagpal",
         "year": 2028,
         "website": "https://bhuvnesh.me/"
     }
