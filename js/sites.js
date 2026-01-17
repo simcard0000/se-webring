@@ -533,6 +533,11 @@ const allSites = [
         "name": "Bhuvnesh Nagpal",
         "year": 2028,
         "website": "https://bhuvnesh.me/"
+    },
+    {
+        "name": "Aditya Prasad",
+        "year": 2029,
+        "website": "https://adiprasadd.xyz/"
     }
 ];
 
