@@ -317,7 +317,7 @@ const allSites = [
     {
         "name": "Balaji Leninrajan",
         "year": 2028,
-        "website": "https://balajileninrajan.github.io/homepage/"
+        "website": "https://www.balajileninrajan.dev"
     },
     {
         "name": "Patrick Huang",
