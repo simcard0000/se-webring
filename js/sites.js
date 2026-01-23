@@ -542,7 +542,7 @@ const allSites = [
     {
         "name": "Aditya Prasad",
         "year": 2029,
-        "website": "https://adiprasadd.xyz/"
+        "website": "https://adiprasad.com/"
     }
 ];
 
