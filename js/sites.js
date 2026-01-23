@@ -317,7 +317,7 @@ const allSites = [
     {
         "name": "Balaji Leninrajan",
         "year": 2028,
-        "website": "https://balajileninrajan.github.io/homepage/"
+        "website": "https://www.balajileninrajan.dev"
     },
     {
         "name": "Patrick Huang",
@@ -543,6 +543,11 @@ const allSites = [
         "name": "Aditya Prasad",
         "year": 2029,
         "website": "https://adiprasad.com/"
+    },
+    {
+        "name": "Kai Zhang",
+        "year": 2030,
+        "website": "https://kaizhang.ca/"
     }
 ];
 
