@@ -548,6 +548,11 @@ const allSites = [
         "name": "Kai Zhang",
         "year": 2030,
         "website": "https://kaizhang.ca/"
+    },
+    {
+        "name": "Dongwan (Jamie) Seoh",
+        "year": 2030,
+        "website": "https://dwseoh.com"
     }
 ];
 
