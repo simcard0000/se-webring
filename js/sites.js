@@ -550,6 +550,11 @@ const allSites = [
         "website": "https://kaizhang.ca/"
     },
     {
+        "name": "Bryan Lin",
+        "year": 2030,
+        "website": "https://bry4n.co"
+    },
+    {
         "name": "Dongwan (Jamie) Seoh",
         "year": 2030,
         "website": "https://dwseoh.com"
