@@ -558,6 +558,11 @@ const allSites = [
         "name": "Dongwan (Jamie) Seoh",
         "year": 2030,
         "website": "https://dwseoh.com"
+    },
+    {
+        "name": "Aidan Jeon",
+        "year": 2030,
+        "website": "https://www.aidanjeon.com/"
     }
 ];
 
