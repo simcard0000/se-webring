@@ -152,7 +152,7 @@ const allSites = [
     {
         "name": "Alex Zhu",
         "year": 2027,
-        "website": "https://probablyalexzhu.github.io"
+        "website": "https://probablyalex.com"
     },
     {
         "name": "Ryan Nguyen",
