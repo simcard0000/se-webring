@@ -573,6 +573,11 @@ const allSites = [
         "name": "Brian Zhang",
         "year": 2026,
         "website": "https://brian386.github.io/"
+    },
+    {
+        "name": "Sicheng Ouyang",
+        "year": 2030,
+        "website": "https://sicheng.dev"
     }
 ];
 
