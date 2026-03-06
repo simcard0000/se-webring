@@ -575,6 +575,11 @@ const allSites = [
         "website": "https://brian386.github.io/"
     },
     {
+        "name": "Ario Barin Ostovary",
+        "year": 2030,
+        "website": "https://ariobarin.com/"
+    },
+    {
         "name": "Sicheng Ouyang",
         "year": 2030,
         "website": "https://sicheng.dev"
