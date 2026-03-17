@@ -584,6 +584,11 @@ const allSites = [
         "year": 2030,
         "website": "https://sicheng.dev"
     }
+    {
+        "name": "Ali Imran,
+        "year": 2030,
+        "website": "https://aliimrans.com"
+    }
 ];
 
 export default allSites;
