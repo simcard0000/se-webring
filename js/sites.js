@@ -585,7 +585,7 @@ const allSites = [
         "website": "https://sicheng.dev"
     }
     {
-        "name": "Ali Imran,
+        "name": "Ali Imran",
         "year": 2030,
         "website": "https://aliimrans.com"
     }
