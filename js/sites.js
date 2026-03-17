@@ -604,6 +604,11 @@ const allSites = [
         "year": 2030,
         "website": "https://www.charles-bae.com"
     },    
+    {
+        "name": "Ali Imran",
+        "year": 2030,
+        "website": "https://aliimrans.com"
+    },
 ];
 
 export default allSites;
