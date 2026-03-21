@@ -584,10 +584,15 @@ const allSites = [
         "year": 2030,
         "website": "https://sicheng.dev"
     },
-        {
+    {
         "name": "Tanmay Shah",
         "year": 2029,
         "website": "https://tanmayshah.xyz"
+    },
+    {
+        "name": "Kevin Yan",
+        "year": 2030,
+        "website": "https://kevinyan.page/"
     }
 ];
 
