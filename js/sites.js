@@ -593,7 +593,12 @@ const allSites = [
         "name": "Kevin Yan",
         "year": 2030,
         "website": "https://kevinyan.page/"
-    }
+    },
+    {
+        "name": "David Li",
+        "year": 2028,
+        "website": "https://davidy.li/"
+    },    
 ];
 
 export default allSites;
