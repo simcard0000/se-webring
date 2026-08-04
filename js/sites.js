@@ -638,6 +638,11 @@ const allSites = [
         "name": "Sam Chen",
         "year": 2030,
         "website": "https://ofts-cqm.vercel.app/"
+    },
+    {
+        "name": "Arjun Sehgal",
+        "year": 2028,
+        "website": "https://www.arjunsehgal.co.uk"
     }
 ];
 
