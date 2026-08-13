@@ -417,7 +417,7 @@ const allSites = [
     {
         "name": "Sean Yang",
         "year": 2030,
-        "website": "https://seanyang.me/"
+        "website": "https://seanyang.ca/"
     },
     {
         "name": "Koral Kulacoglu",
