@@ -407,7 +407,7 @@ const allSites = [
     {
         "name": "Qinkai Li",
         "year": 2030,
-        "website": "https://batteryspecial.vercel.app/"
+        "website": "https://batteryspecial.xyz/"
     },
     {
         "name": "Hwiseong Ahn",
