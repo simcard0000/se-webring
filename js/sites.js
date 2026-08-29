@@ -648,6 +648,11 @@ const allSites = [
         "name": "Arjun Sehgal",
         "year": 2028,
         "website": "https://www.arjunsehgal.co.uk"
+    },
+    {
+        "name": "David Estrine",
+        "year": 2030,
+        "website": "https://talkingml.com"
     }
 ];
 
