@@ -642,7 +642,7 @@ const allSites = [
     {
         "name": "Dominik Ritz",
         "year": 2028,
-        "website": "https://dygitz.github.io/"
+        "website": "https://dominikritz.com/"
     },
     {
         "name": "Arjun Sehgal",
