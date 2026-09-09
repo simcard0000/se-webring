@@ -653,6 +653,11 @@ const allSites = [
         "name": "David Estrine",
         "year": 2030,
         "website": "https://talkingml.com"
+    },
+    {
+        "name": "Jerry Chen",
+        "year": 2031,
+        "website": "https://jchen.zombiewars.net"
     }
 ];
 
