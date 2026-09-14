@@ -658,6 +658,11 @@ const allSites = [
         "name": "Jerry Chen",
         "year": 2031,
         "website": "https://jchen.zombiewars.net"
+    },
+    {
+        "name": "Anna Poutanen",
+        "year": 2030,
+        "website": "https://anna-poutanen.github.io/"
     }
 ];
 
