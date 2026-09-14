@@ -152,7 +152,7 @@ const allSites = [
     {
         "name": "Alex Zhu",
         "year": 2027,
-        "website": "https://probablyalexzhu.github.io"
+        "website": "https://probablyalex.com"
     },
     {
         "name": "Ryan Nguyen",
@@ -317,7 +317,7 @@ const allSites = [
     {
         "name": "Balaji Leninrajan",
         "year": 2028,
-        "website": "https://balajileninrajan.github.io/homepage/"
+        "website": "https://www.balajileninrajan.dev"
     },
     {
         "name": "Patrick Huang",
@@ -407,7 +407,7 @@ const allSites = [
     {
         "name": "Qinkai Li",
         "year": 2030,
-        "website": "https://batteryspecial.vercel.app/"
+        "website": "https://batteryspecial.xyz/"
     },
     {
         "name": "Hwiseong Ahn",
@@ -417,7 +417,7 @@ const allSites = [
     {
         "name": "Sean Yang",
         "year": 2030,
-        "website": "https://seanyang.me/"
+        "website": "https://seanyang.ca/"
     },
     {
         "name": "Koral Kulacoglu",
@@ -472,7 +472,7 @@ const allSites = [
     {
         "name": "Angelina Wang",
         "year": 2029,
-        "website": "https://archangelinux.vercel.app/"
+        "website": "https://angiebw.com/"
     },
     {
         "name": "Ricky Tang",
@@ -520,10 +520,150 @@ const allSites = [
         "website": "https://akishai18.github.io/"
     },
     {
+        "name": "Gabriel Faigan",
+        "year": 2030,
+        "website": "https://faigan.com/"
+    },
+    {
+        "name": "Quinn Wang",
+        "year": 2030,
+        "website": "https://www.quinnwang.me/"
+    },
+    {
+        "name": "Bhuvnesh Nagpal",
+        "year": 2028,
+        "website": "https://bhuvnesh.me/"
+    },
+    {
+        "name": "Daniel Zhang",
+        "year": 2030,
+        "website": "https://danielzh.dev/"
+    },
+    {
+        "name": "Aditya Prasad",
+        "year": 2029,
+        "website": "https://adiprasad.com/"
+    },
+    {
+        "name": "Kai Zhang",
+        "year": 2030,
+        "website": "https://kaizhang.ca/"
+    },
+    {
+        "name": "Bryan Lin",
+        "year": 2030,
+        "website": "https://bry4n.co"
+    },
+    {
+        "name": "Dongwan (Jamie) Seoh",
+        "year": 2030,
+        "website": "https://dwseoh.com"
+    },
+    {
+        "name": "Aidan Jeon",
+        "year": 2030,
+        "website": "https://www.aidanjeon.com/"
+    },
+    {
+        "name": "Carol Meng",
+        "year": 2030,
+        "website": "https://carolmeng.vercel.app/"
+    },
+    {
+        "name": "Brian Zhang",
+        "year": 2026,
+        "website": "https://brian386.github.io/"
+    },
+    {
+        "name": "Ario Barin Ostovary",
+        "year": 2030,
+        "website": "https://ariobarin.com/"
+    },
+    {
+        "name": "Sicheng Ouyang",
+        "year": 2030,
+        "website": "https://sicheng.dev"
+    },
+    {
+        "name": "Tanmay Shah",
+        "year": 2029,
+        "website": "https://tanmayshah.xyz"
+    },
+    {
+        "name": "Kevin Yan",
+        "year": 2030,
+        "website": "https://kevinyan.page/"
+    },
+    {
+        "name": "David Li",
+        "year": 2028,
+        "website": "https://davidy.li/"
+    },  
+    {
+        "name": "Charles Bae",
+        "year": 2030,
+        "website": "https://www.charles-bae.com"
+    },    
+    {
+        "name": "Ali Imran",
+        "year": 2030,
+        "website": "https://aliimrans.com"
+    },
+    {
+        "name": "Lily Ge",
+        "year": 2029,
+        "website": "https://lilyjge.github.io/"
+    },
+    {
+        "name": "Leonardo Montes Quiliche",
+        "year": 2029,
+        "website": "https://www.leonardomontes.ca"
+    },
+    {
+        "name": "Davis Liu",
+        "year": 2029,
+        "website": "https://davisliu2006.github.io"
+    },
+    {
+        "name": "Angus Sun",
+        "year": 2030,
+        "website": "https://angussun.com"
+    },
+    {
+        "name": "Nathan Li",
+        "year": 2029,
+        "website": "https://thenathan.li/"
+    },
+    {
+        "name": "Sam Chen",
+        "year": 2030,
+        "website": "https://ofts-cqm.vercel.app/"
+    },
+    {
+        "name": "Dominik Ritz",
+        "year": 2028,
+        "website": "https://dominikritz.com/"
+    },
+    {
+        "name": "Arjun Sehgal",
+        "year": 2028,
+        "website": "https://www.arjunsehgal.co.uk"
+    },
+    {
+        "name": "David Estrine",
+        "year": 2030,
+        "website": "https://talkingml.com"
+    },
+    {
+        "name": "Jerry Chen",
+        "year": 2031,
+        "website": "https://jchen.zombiewars.net"
+    },
+    {
         "name": "Anna Poutanen",
         "year": 2030,
         "website": "https://anna-poutanen.github.io/"
-    },
+    }
 ];
 
 export default allSites;
