@@ -663,6 +663,11 @@ const allSites = [
         "name": "Anna Poutanen",
         "year": 2030,
         "website": "https://anna-poutanen.github.io/"
+    },
+    {
+        "name": "Suri Tian",
+        "year": 2030,
+        "website": "https://suritian.vercel.app/"
     }
 ];
 
