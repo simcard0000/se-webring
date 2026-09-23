@@ -280,6 +280,11 @@ const allSites = [
         "website": "http://aliicezhao.com/"
     },
     {
+        "name": "Sanskriti Akhoury",
+        "year": 2028,
+        "website": "https://sanskritiakhoury.com/"
+    },
+    {
         "name": "Pavithran Chelliahpillai",
         "year": 2029,
         "website": "https://pchelliahpillai.com/"
