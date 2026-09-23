@@ -3,6 +3,7 @@
 [![W3C Validation - https://validator.nu/](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fse-webring.xyz%2F&label=w3c%20check
 )](https://validator.nu/?doc=https%3A%2F%2Fse-webring.xyz%2F)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4b02e235-809d-4b58-a8b6-e1facb3562a8/deploy-status)](https://app.netlify.com/sites/eager-mccarthy-ee07e5/deploys)
+![handmade website](https://img.shields.io/badge/%F0%9F%A4%8D%20handmade-mediumorchid)
 # se-webring
 <img alt="se-webring icon" src="https://github.com/simcard0000/se-webring/blob/main/assets/logo/logo_bg_b.png" width="100" height="100">
 💜 A webring (more like web-star 🤣) for Software Engineering (SE) students at the University of Waterloo.
