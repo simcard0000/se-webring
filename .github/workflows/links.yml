@@ -20,7 +20,7 @@ jobs:
         with:
           fail: false
           output: ./lychee/out.md
-          args: './js/sites.js --insecure=true'
+          args: './js/sites.js --insecure=true --max-retries 5 --retry-wait-time 30 --timeout 30'
 
       - name: Create Issue From File
         if: steps.lychee.outputs.exit_code != 0
