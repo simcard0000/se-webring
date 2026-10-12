@@ -204,11 +204,11 @@ const allSites = [
         "year": 2028,
         "website": "https://wilsonchenn.com/"
     },
-    {
-        "name": "Aurora Shi",
-        "year": 2028,
-        "website": "https://aurorashi.com/"
-    },
+    // {
+    //     "name": "Aurora Shi",
+    //     "year": 2028,
+    //     "website": "https://aurorashi.com/"
+    // },
     {
         "name": "Brian Zhang",
         "year": 2028,
