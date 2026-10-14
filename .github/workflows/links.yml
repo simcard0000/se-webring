@@ -27,34 +27,41 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: ./lychee/failed-urls.txt
-          key: link-state-nomatch-${{ github.run_id }}
+          key: link-state-restore-${{ github.run_id }}
           restore-keys: link-state-
 
       - name: Compare with previous run
         id: compare
         run: |
-          # Shift previously failed urls to a temp file
-          if [ -f ./lychee/failed-urls.txt ]; then
-            cp ./lychee/failed-urls.txt previous.txt
-          else
-            : > previous.txt
-          fi
+          touch lychee/failed-urls.txt
 
-          # Need to check json output format...
-          if [ -f lychee/out.json ]; then
-            jq -r '(.error_map // .fail_map // {}) | to_entries[].value[].url' \
-              lychee/out.json | sort -u > current.txt
-          else
-            echo "TEST"
-            : > current.txt
-          fi
+          # jq query to compare restored list of failing URL's from last run
+          # to the current list, then report any matches (any that failed twice in a row)
+          jq -r --rawfile prev lychee/failed-urls.txt '
+            ($prev | split("\n")) as $p
+            | .error_map[][]
+            | select(.url | IN($p[]))
+            | "- \(.url): \(.status.text)"
+          ' lychee/out.json > report.md
 
-          cat current.txt
+          # Write all failing URL's from the current run to cache, for use by next run
+          jq -r '.error_map[][].url' lychee/out.json > lychee/failed-urls.txt
+
+          # If report exists and isn't empty, flag report created as true
+          if [ -s report.md ] 
+            echo "report=true" >> "$GITHUB_OUTPUT"
+          fi
+          
+      - name: Save current failures
+        uses: actions/cache/save@v4
+        with:
+          path: lychee/failed-urls.txt
+          key: link-state-${{ github.run_id }}
 
       - name: Create Issue From File
-        if: steps.lychee.outputs.exit_code != 0
+        if: steps.compare.outputs.report == 'true'
         uses: peter-evans/create-issue-from-file@v5
         with:
           title: Link Checker Report
-          content-filepath: ./lychee/out.md
+          content-filepath: ./report.md
           labels: report, automated issue
