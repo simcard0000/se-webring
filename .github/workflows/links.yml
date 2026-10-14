@@ -48,7 +48,7 @@ jobs:
           jq -r '.error_map[][].url' lychee/out.json > lychee/failed-urls.txt
 
           # If report exists and isn't empty, flag report created as true
-          if [ -s report.md ] 
+          if [[ -s report.md ]]; then
             echo "report=true" >> "$GITHUB_OUTPUT"
           fi
           
