@@ -20,7 +20,7 @@ jobs:
         with:
           fail: false
           format: json
-          output: ./lychee/out.md
+          output: ./lychee/out.json
           args: './js/sites.js --insecure=true --max-retries 5 --retry-wait-time 30 --timeout 30'
 
       - name: Restore previous failures
