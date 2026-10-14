@@ -55,7 +55,7 @@ jobs:
       - name: Save current failures
         uses: actions/cache/save@v4
         with:
-          path: lychee/failed-urls.txt
+          path: ./lychee/failed-urls.txt
           key: link-state-${{ github.run_id }}
 
       - name: Create Issue From File
