@@ -35,11 +35,6 @@ const allSites = [
         "website": "https://zonahu.github.io/"
     },
     {
-        "name": "Yash Arora",
-        "year": 2024,
-        "website": "https://yasharora.com/"
-    },
-    {
         "name": "Jessica Lui",
         "year": 2024,
         "website": "https://jessicalui.me/"
@@ -65,11 +60,6 @@ const allSites = [
         "website": "https://alan-ma.ca/"
     },
     {
-        "name": "Mufeez Amjad",
-        "year": 2023,
-        "website": "https://mufeez.me"
-    },
-    {
         "name": "Yifei Zhang",
         "year": 2023,
         "website": "https://yifeiz.com"
@@ -80,11 +70,6 @@ const allSites = [
         "website": "https://www.ryandeng.me/"
     },
     {
-        "name": "Elliott Song",
-        "year": 2024,
-        "website": "https://elliottsong.com"
-    },
-    {
         "name": "Bilal Khan",
         "year": 2025,
         "website": "https://bilal2vec.com"
@@ -93,11 +78,6 @@ const allSites = [
         "name": "Dylan Snelgrove",
         "year": 2024,
         "website": "https://dylansnelgrove.com"
-    },
-    {
-        "name": "Oren Leung",
-        "year": 2025,
-        "website": "https://orenleung.com"
     },
     {
         "name": "Jason Zhou",
@@ -135,11 +115,6 @@ const allSites = [
         "website": "https://rajan.sh"
     },
     {
-        "name": "Anthony Chen",
-        "year": 2028,
-        "website": "https://chenanthony.com"
-    },
-    {
         "name": "Krish Shah",
         "year": 2026,
         "website": "https://krishkrosh.com"
@@ -153,11 +128,6 @@ const allSites = [
         "name": "Alex Zhu",
         "year": 2027,
         "website": "https://probablyalex.com"
-    },
-    {
-        "name": "Ryan Nguyen",
-        "year": 2028,
-        "website": "https://rynguyen.com/"
     },
     {
         "name": "Patrick Gu",
@@ -235,11 +205,6 @@ const allSites = [
         "website": "https://wilsonchenn.com/"
     },
     {
-        "name": "Aurora Shi",
-        "year": 2028,
-        "website": "https://aurorashi.com/"
-    },
-    {
         "name": "Brian Zhang",
         "year": 2028,
         "website": "https://brianwzhang.com/"
@@ -257,7 +222,7 @@ const allSites = [
     {
         "name": "Abhinav Balasubramanian",
         "year": 2027,
-        "website": "https://abhinav-bala.github.io/portfolio/"
+        "website": "https://abhinav-bala.github.io"
     },
     {
         "name": "Umar Mustafa",
@@ -282,7 +247,7 @@ const allSites = [
     {
         "name": "Pavithran Chelliahpillai",
         "year": 2029,
-        "website": "https://pchelliahpillai.com/"
+        "website": "https://www.pchellia.com/"
     },
     {
         "name": "Paul Lee",
@@ -410,11 +375,6 @@ const allSites = [
         "website": "https://batteryspecial.xyz/"
     },
     {
-        "name": "Hwiseong Ahn",
-        "year": 2030,
-        "website": "https://www.hwiseong.com/en"
-    },
-    {
         "name": "Sean Yang",
         "year": 2030,
         "website": "https://seanyang.ca/"
@@ -453,11 +413,6 @@ const allSites = [
         "name": "William Yang",
         "year": 2030,
         "website": "https://williamyang.ca/"
-    },
-    {
-        "name": "Harley Zhang",
-        "year": 2029,
-        "website": "https://www.harleyzhang.me/"
     },
     {
         "name": "Tobias Livadariu",
@@ -517,7 +472,7 @@ const allSites = [
     {
         "name": "Akishai Sabaratnasarma",
         "year": 2030,
-        "website": "https://akishai18.github.io/"
+        "website": "https://akishai.com"
     },
     {
         "name": "Gabriel Faigan",

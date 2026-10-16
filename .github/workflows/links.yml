@@ -1,0 +1,67 @@
+name: Links
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  schedule:
+    - cron: "00 18 */2 * *"
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write 
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: false
+          format: json
+          output: ./lychee/out.json
+          args: './js/sites.js --insecure=true --max-retries 5 --retry-wait-time 30 --timeout 30'
+
+      - name: Restore previous failures
+        uses: actions/cache/restore@v4
+        with:
+          path: ./lychee/failed-urls.txt
+          key: link-state-restore-${{ github.run_id }}
+          restore-keys: link-state-
+
+      - name: Compare with previous run
+        id: compare
+        run: |
+          touch lychee/failed-urls.txt
+
+          # jq query to compare restored list of failing URL's from last run
+          # to the current list, then report any matches (any that failed twice in a row)
+          jq -r --rawfile prev lychee/failed-urls.txt '
+            ($prev | split("\n")) as $p
+            | .error_map[][]
+            | select(.url | IN($p[]))
+            | "- \(.url): \(.status.text)"
+          ' lychee/out.json > report.md
+
+          # Write all failing URL's from the current run to cache, for use by next run
+          jq -r '.error_map[][].url' lychee/out.json > lychee/failed-urls.txt
+
+          # If report exists and isn't empty, flag report created as true
+          if [[ -s report.md ]]; then
+            echo "report=true" >> "$GITHUB_OUTPUT"
+          fi
+          
+      - name: Save current failures
+        uses: actions/cache/save@v4
+        with:
+          path: ./lychee/failed-urls.txt
+          key: link-state-${{ github.run_id }}
+
+      - name: Create Issue From File
+        if: steps.compare.outputs.report == 'true'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Link Checker Report
+          content-filepath: ./report.md
+          labels: report, automated issue
