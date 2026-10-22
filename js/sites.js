@@ -673,6 +673,11 @@ const allSites = [
         "name": "Pari Vansjalia",
         "year": 2028,
         "website": "https://parivansjalia.com/"
+    },
+    {
+        "name": "Jayden Shin",
+        "year": 2031,
+        "website": "https://jayden-shin.vercel.app/"
     }
 ];
 
