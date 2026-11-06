@@ -155,11 +155,6 @@ const allSites = [
         "website": "https://pearlnatalia.com"
     },
     {
-        "name": "Michael Pu",
-        "year": 2024,
-        "website": "https://mchlp.github.io/"
-    },
-    {
         "name": "Krish Modi",
         "year": 2028,
         "website": "https://krishmodi.com"
