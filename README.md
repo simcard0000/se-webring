@@ -26,16 +26,16 @@ It's nice to see that other people have stumbled across the webring! Projects th
 - [Design Waterloo](https://designwaterloo.notion.site/Design-Waterloo-ed321f1df1974e5cb8084949c1d5cd5e)
 
   ![Design Waterloo Shoutout](./assets/mentions/design-waterloo.png)
-- [ECE Webring - ece.engineering](https://ece.engineering/) / [repo](https://github.com/roozbehali/ece_webring)
+- ECE Webring / [repo](https://github.com/roozbehali/ece_webring)
 
   ![ECE Webring Shoutout #1](./assets/mentions/ece-webring-1.png) ![ECE Webring Shoutout #2](./assets/mentions/ece-webring-2.png)
     - [Old ECE Webring](https://uw-ece.github.io/webring/) / [repo](https://github.com/uw-ece/webring)
 
       ![ECE Webring Shoutout #3](./assets/mentions/ece-webring-3.png)
-- [McGill CS Webring](https://mcgillcswebring.org/) / [repo](https://github.com/leofalvo/mcgillcswebring.org)
+- [McGill CS Webring](https://mcgillcswebring.pages.dev/) / [repo](https://github.com/leofalvo/mcgillcswebring.org)
 
   ![McGill Webring Shoutout](./assets/mentions/mcgill-webring.png)
-- [UOttawa EECS Webring](https://farooqqureshi.com/eecs-webring/) / [repo](https://github.com/farooqqureshii/eecs-webring)
+- UOttawa EECS Webring / [repo](https://github.com/farooqqureshii/eecs-webring)
 
   ![UOttawa Webring Shoutout #1](./assets/mentions/ottawa-webring-1.png) ![UOttawa Webring Shoutout #2](./assets/mentions/ottawa-webring-2.png)
 - Others
